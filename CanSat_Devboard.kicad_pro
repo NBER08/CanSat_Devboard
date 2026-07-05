@@ -279,7 +279,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${REVISION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1062,7 +1062,7 @@
       {
         "filename": "CanSat_Devboard.kicad_sch",
         "name": "CanSat_Devboard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
     "used_designators": "",
@@ -1071,7 +1071,7 @@
   "sheets": [
     [
       "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c",
-      "Root"
+      "CanSat_Devboard"
     ],
     [
       "82da9dbf-ba38-4d08-ba35-a220fa2963b1",
@@ -1100,14 +1100,14 @@
   ],
   "text_variables": {
     "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
-    "BOARD_NAME": "Board Name",
-    "COMPANY": "Company",
-    "DESIGNER": "Author",
+    "BOARD_NAME": "CanSat Devboard",
+    "COMPANY": "Karpat Space Program",
+    "DESIGNER": "Bertalan Nagy",
     "FABRICATION_NOTES": "FABRICATION NOTES",
     "GIT_HASH_PCB": "",
     "GIT_HASH_SCH": "",
     "GIT_URL": "",
-    "PROJECT_NAME": "Project Name",
+    "PROJECT_NAME": "CanSat devboard",
     "RELEASE_BODY_1.0.0": "",
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
@@ -1120,7 +1120,7 @@
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
     "RELEASE_TITLE_UNRELEASED": "",
-    "REVISION": "",
+    "REVISION": "N/A",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -1154,14 +1154,14 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "Section A - Title A",
+    "SHEET_NAME_4": "OBC",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Section B -Title B",
-    "SHEET_NAME_6": "Power - Sequencing",
+    "SHEET_NAME_5": "Power",
+    "SHEET_NAME_6": "Connectors",
     "SHEET_NAME_7": "Revision History",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": ""
+    "VARIANT": "v0"
   },
   "tuning_profiles": {
     "meta": {
