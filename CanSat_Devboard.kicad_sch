@@ -1743,7 +1743,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b")
-		(property "Sheetname" "Power - Sequencing"
+		(property "Sheetname" "LoRa"
 			(at 340.36 312.6609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1757,7 +1757,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power - Sequencing.kicad_sch"
+		(property "Sheetfile" "LoRa.kicad_sch"
 			(at 341.63 314.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1772,7 +1772,56 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "6")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 340.36 323.85)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "67a0a98f-78bd-4ba4-9c4d-8eccb68d90da")
+		(property "Sheetname" "OBC"
+			(at 340.36 322.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OBC.kicad_sch"
+			(at 341.63 325.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
+					(page "4")
 				)
 			)
 		)
@@ -1813,6 +1862,54 @@
 			(effects
 				(font
 					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 299.72 323.85)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7469a13a-cf19-4a8b-938f-14a2f9754d72")
+		(property "Sheetname" "Misc"
+			(at 299.72 322.8209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc.kicad_sch"
+			(at 300.482 324.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -1890,8 +1987,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
-		(property "Sheetname" "Project Architecture"
-			(at 299.72 312.6609 0)
+		(property "Sheetname" "SD card"
+			(at 299.72 312.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1904,7 +2001,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Project Architecture.kicad_sch"
+		(property "Sheetfile" "SD_card.kicad_sch"
 			(at 300.99 314.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,7 +2016,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "3")
+					(page "6")
 				)
 			)
 		)
