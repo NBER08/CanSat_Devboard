@@ -1729,6 +1729,104 @@
 		(uuid "dee96870-b977-4804-a805-318fe8afe5f2")
 	)
 	(sheet
+		(at 299.72 334.01)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0fc926ec-cefb-4826-b343-f371aa2c73f0")
+		(property "Sheetname" "Power"
+			(at 299.72 332.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 300.99 335.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 299.72 323.85)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1d8b8fa6-9111-4415-b516-c06d0094a485")
+		(property "Sheetname" "Misc"
+			(at 299.72 322.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc.kicad_sch"
+			(at 300.99 325.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 340.36 313.69)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
@@ -1876,54 +1974,6 @@
 		)
 	)
 	(sheet
-		(at 299.72 323.85)
-		(size 35.56 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7469a13a-cf19-4a8b-938f-14a2f9754d72")
-		(property "Sheetname" "Misc"
-			(at 299.72 322.8209 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(thickness 0.381)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Misc.kicad_sch"
-			(at 300.482 324.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 299.72 302.26)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
@@ -1968,6 +2018,55 @@
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 340.36 334.01)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d91c542-2cf4-4a43-8182-85592254ac4a")
+		(property "Sheetname" "USB"
+			(at 340.36 332.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 341.63 335.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
+					(page "9")
 				)
 			)
 		)

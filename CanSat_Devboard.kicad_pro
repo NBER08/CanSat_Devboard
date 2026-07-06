@@ -1065,7 +1065,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-3,#PWR1-59,Y1,BT1-2,C1-22,FB1,L1-5,SW1-3,R1-17,D1-6,U1-3,NT1-4,IC1,J1-4",
     "variants": []
   },
   "sheets": [
@@ -1094,8 +1094,16 @@
       "SD card"
     ],
     [
-      "7469a13a-cf19-4a8b-938f-14a2f9754d72",
+      "1d8b8fa6-9111-4415-b516-c06d0094a485",
       "Misc"
+    ],
+    [
+      "0fc926ec-cefb-4826-b343-f371aa2c73f0",
+      "Power"
+    ],
+    [
+      "8d91c542-2cf4-4a43-8182-85592254ac4a",
+      "USB"
     ]
   ],
   "text_variables": {
@@ -1159,8 +1167,8 @@
     "SHEET_NAME_5": "Lora",
     "SHEET_NAME_6": "SD card",
     "SHEET_NAME_7": "Misc",
-    "SHEET_NAME_8": "......................................",
-    "SHEET_NAME_9": "......................................",
+    "SHEET_NAME_8": "Power",
+    "SHEET_NAME_9": "USB",
     "VARIANT": "v0"
   },
   "tuning_profiles": {
