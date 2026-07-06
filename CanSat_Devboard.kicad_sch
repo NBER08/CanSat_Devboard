@@ -5,12 +5,13 @@
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
 	(paper "A3")
 	(title_block
-		(date "2025-01-12")
+		(title "CanSat devboard")
+		(date "2026-07-05")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(text "Variant: ${VARIANT}"
+	(text "Variant: ${VERSION}"
 		(exclude_from_sim no)
 		(at 25.4 58.42 0)
 		(effects
