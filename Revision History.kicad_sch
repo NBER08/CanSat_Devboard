@@ -33,14 +33,14 @@
 		)
 		(uuid "186ff30f-dac4-4b44-bb1d-61ebbddaf432")
 	)
-	(text_box "[${#}] ${TITLE}"
+	(text_box "[${#}] ${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 80.01 16.51 0)
-		(size 137.16 12.7)
+		(at 80.8228 10.9799 0)
+		(size 137.16 18.3317)
 		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)

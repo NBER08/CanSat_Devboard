@@ -1007,7 +1007,23 @@
       "sort_asc": true,
       "sort_field": "Footprint"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "LoRa_BUS": [
+        "LoRa_BUSY",
+        "LoRa_SW",
+        "LoRa_MISO",
+        "LoRa_MOSI",
+        "LoRa_SCK",
+        "LoRa_RST",
+        "LoRa_NSS"
+      ],
+      "Prog_BUS": [
+        "SW0",
+        "RST",
+        "SWDIO",
+        "SWDCLK"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1027,7 +1043,7 @@
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
-      "overbar_offset_ratio": 1.23,
+      "overbar_offset_ratio": 1.0,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -1055,7 +1071,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "J1-4,TP1-3,R1-17,#PWR1-59,Y1,BT1-2,C1-22,FB1,L1-5,SW1-3,IC1,NT1-4,D1-6,U1-3",
+    "used_designators": "J1-8,TP1-6,R1-20,#PWR1-92,Y1-2,BT1-2,C1-26,D1-6,U1-6,FB1-2,L1-6,SW1-6,IC1-2,NT1-4",
     "variants": []
   },
   "sheets": [
@@ -1068,32 +1084,36 @@
       "Block Diagram"
     ],
     [
-      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
-      "Revision History"
+      "5d00bd0a-3bbf-46b2-b8c5-f75441fb4350",
+      "Project Architecture"
     ],
     [
-      "67a0a98f-78bd-4ba4-9c4d-8eccb68d90da",
+      "2028456c-6ef4-4d71-987d-d023cb9d3da5",
       "OBC"
     ],
     [
-      "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
+      "9933681f-ea4a-4682-bf5d-617d071c4427",
+      "USB"
+    ],
+    [
+      "97c73fca-b393-43be-ae9c-ea90e4dfaddd",
       "LoRa"
     ],
     [
-      "c5103ceb-5325-4a84-a025-9638a412984e",
-      "SD card"
-    ],
-    [
-      "1d8b8fa6-9111-4415-b516-c06d0094a485",
-      "Misc"
-    ],
-    [
-      "0fc926ec-cefb-4826-b343-f371aa2c73f0",
+      "dd3743eb-d6f5-4249-8948-a675f2376adf",
       "Power"
     ],
     [
-      "8d91c542-2cf4-4a43-8182-85592254ac4a",
-      "USB"
+      "54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc",
+      "SD card"
+    ],
+    [
+      "018262e7-802c-4bdf-a206-c30cacd206c9",
+      "Misc"
+    ],
+    [
+      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
+      "Revision History"
     ]
   ],
   "text_variables": {
@@ -1120,7 +1140,7 @@
     "RELEASE_TITLE_UNRELEASED": "",
     "REVISION": "1",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "......................................",
+    "SHEET_NAME_10": "Revision history",
     "SHEET_NAME_11": "......................................",
     "SHEET_NAME_12": "......................................",
     "SHEET_NAME_13": "......................................",
@@ -1141,7 +1161,7 @@
     "SHEET_NAME_27": "......................................",
     "SHEET_NAME_28": "......................................",
     "SHEET_NAME_29": "......................................",
-    "SHEET_NAME_3": "Revision history",
+    "SHEET_NAME_3": "Project Architecture",
     "SHEET_NAME_30": "......................................",
     "SHEET_NAME_31": "......................................",
     "SHEET_NAME_32": "......................................",
