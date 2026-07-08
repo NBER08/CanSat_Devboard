@@ -1168,6 +1168,140 @@
 		(at 66.04 96.52)
 		(uuid "e381dbfd-e8a8-441c-a10d-31ab0a78aca6")
 	)
+	(bus_entry
+		(at 101.6 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9baf1c-aba0-444b-97aa-932d3b621f1d")
+	)
+	(bus_entry
+		(at 101.6 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b3f5f3-e4f4-4116-af40-117ae6ecedc2")
+	)
+	(bus_entry
+		(at 101.6 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c06a14b-2378-4943-9bc5-dd4ea2eb8087")
+	)
+	(bus_entry
+		(at 101.6 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8ebbd4-71f5-4911-b203-66256304a95a")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163646d3-e29b-4e3c-aaf6-da961750d07c")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7430d2-8da1-45e2-830a-08e9d0ea13b7")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aff75a8-abe1-43dd-bccd-804c76cd6e01")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c835bba4-3589-4505-aa28-5bad4a5d7b02")
+	)
+	(bus
+		(pts
+			(xy 101.6 91.44) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee51de47-cc42-46e3-bed5-003f6268c425")
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 105.41 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01df5814-b0de-44db-9102-b7813836e045")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2614 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SWDCLK"
+		(shape input)
+		(at 105.41 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c2f6bb2-1b29-40ba-871d-e383d8059aa5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8942 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape input)
 		(at 55.88 77.47 180)
@@ -1192,19 +1326,19 @@
 			)
 		)
 	)
-	(global_label "RMF"
+	(global_label "SW0"
 		(shape input)
-		(at 59.69 110.49 180)
+		(at 105.41 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2e2e757f-7982-4e11-a107-944ae7d55390")
+		(uuid "25fece6b-0eec-450e-b8e8-9cbf54de57bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.8948 110.49 0)
+			(at 112.2656 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1212,7 +1346,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -1312,6 +1446,52 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 105.41 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec108b27-6e30-4eb0-bc87-8a415eaa5903")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8423 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "{Prog_BUS}"
+		(shape input)
+		(at 101.6 91.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1ffb601-4c38-4878-9d16-9e4b1c37fb3b")
+	)
+	(hierarchical_label "RMF"
+		(shape input)
+		(at 59.69 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe38998b-74e4-4fde-88cd-e331b9afbbdf")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 66.04 59.69 90)
@@ -1383,7 +1563,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -1461,7 +1641,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -1481,7 +1661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70cd7b87-cd57-4635-a0ab-ba886f113fd3")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 66.04 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,8 +1724,8 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
-					(reference "J4")
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1624,7 +1804,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -1702,7 +1882,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -1780,7 +1960,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -1859,7 +2039,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -1939,7 +2119,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -1957,7 +2137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5b240b8-830d-4bfb-8466-750c041d09fa")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 59.69 85.9282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2029,8 +2209,8 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
-					(reference "J3")
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2108,7 +2288,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -2187,7 +2367,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -2266,7 +2446,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -2344,7 +2524,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -2424,7 +2604,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "SW3")
 					(unit 1)
 				)
@@ -2502,7 +2682,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/1d8b8fa6-9111-4415-b516-c06d0094a485"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
 					(reference "#PWR034")
 					(unit 1)
 				)

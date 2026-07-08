@@ -661,6 +661,173 @@
 		(at 163.83 78.74)
 		(uuid "d0acdf24-ed3a-4230-b6e7-ea78766a80a6")
 	)
+	(bus_entry
+		(at 226.06 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d8bbe1-a0a6-42d7-81b1-417646e3d039")
+	)
+	(bus_entry
+		(at 226.06 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32395bbc-af3a-425d-b448-efb12309a8d6")
+	)
+	(bus_entry
+		(at 226.06 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63710f94-a264-4bfe-aa66-fe5a6a482a46")
+	)
+	(bus_entry
+		(at 226.06 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7a079d-3053-47eb-b9d8-919637379d32")
+	)
+	(bus_entry
+		(at 226.06 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5e7ef9-b5e1-4f5f-816b-70f08aa9b152")
+	)
+	(bus_entry
+		(at 226.06 71.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf90211-4d49-451e-a425-665d6125226f")
+	)
+	(bus_entry
+		(at 226.06 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9403b5a-bb33-42a2-a3fd-5ee734290d12")
+	)
+	(wire
+		(pts
+			(xy 222.25 71.12) (xy 226.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a3ad4f-c22a-4d77-99f1-467347e782e3")
+	)
+	(wire
+		(pts
+			(xy 222.25 68.58) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29145580-8b30-40b2-abb3-fef470a136f5")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 226.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df02741-1030-4d5d-abe7-43f5b884fb42")
+	)
+	(wire
+		(pts
+			(xy 222.25 73.66) (xy 226.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401e6b17-e1f2-4771-a1e7-0fff6465b875")
+	)
+	(bus
+		(pts
+			(xy 228.6 66.04) (xy 228.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f80683-2499-4ac0-aec6-e8acbb148f4f")
+	)
+	(wire
+		(pts
+			(xy 222.25 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30615ed-06f1-4130-b626-397f0a9a6d9d")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c62986-fa72-4df5-8bac-6be9a945007a")
+	)
+	(wire
+		(pts
+			(xy 222.25 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb71909e-905f-4e7f-996f-8bac7bf41649")
+	)
+	(global_label "LoRa_SCK"
+		(shape input)
+		(at 222.25 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19c3dd3e-05f9-437d-8db0-8738136f00e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9516 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LoRa_SW"
 		(shape input)
 		(at 130.81 78.74 180)
@@ -674,6 +841,78 @@
 		(uuid "1c701958-fab4-411b-8da5-ba532df749cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.6002 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LoRa_SW"
+		(shape input)
+		(at 222.25 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d8eb033-b383-457c-a7c1-bbe6306afbb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.0402 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LoRa_NSS"
+		(shape input)
+		(at 222.25 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "328351b1-eb33-4f3e-94de-be7102c03aca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9516 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LoRa_MISO"
+		(shape input)
+		(at 222.25 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c8cc5fd-13b0-4614-9a1e-e51a2ef9b543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.1049 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -757,6 +996,54 @@
 			)
 		)
 	)
+	(global_label "LoRa_RST"
+		(shape input)
+		(at 222.25 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72f189fb-7a83-4ac3-8e4f-db2ade03812c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.254 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LoRa_MOSI"
+		(shape input)
+		(at 222.25 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79d7f1f8-66d9-4c5d-8275-707d7743cc70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.1049 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LoRa_MOSI"
 		(shape input)
 		(at 130.81 83.82 180)
@@ -770,6 +1057,30 @@
 		(uuid "7e12349d-cf53-47f1-87c8-55e3bbb24a60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.6649 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LoRa_BUSY"
+		(shape input)
+		(at 222.25 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "862ff993-7548-433c-b6cc-b32dab6bab7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.8025 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -828,6 +1139,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "{LoRa_BUS}"
+		(shape bidirectional)
+		(at 228.6 87.63 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "630d1bfe-3a65-4add-8f79-12a024b0ce1e")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -902,7 +1224,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/97c73fca-b393-43be-ae9c-ea90e4dfaddd"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -982,7 +1304,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/97c73fca-b393-43be-ae9c-ea90e4dfaddd"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -1061,7 +1383,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/97c73fca-b393-43be-ae9c-ea90e4dfaddd"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -1100,7 +1422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Components:114993390"
+		(property "Footprint" "00_lora:wio-sx1262"
 			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1232,7 +1554,7 @@
 		)
 		(instances
 			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/97c73fca-b393-43be-ae9c-ea90e4dfaddd"
 					(reference "IC1")
 					(unit 1)
 				)

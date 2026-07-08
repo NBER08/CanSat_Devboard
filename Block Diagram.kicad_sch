@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 176.53 67.691)
-		(end 189.23 156.21)
+		(start 218.44 96.647)
+		(end 231.14 185.166)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -26,8 +26,8 @@
 		(uuid "051b3dab-07ca-4b94-92bb-989d74ed83ce")
 	)
 	(rectangle
-		(start 161.925 57.531)
-		(end 203.835 59.436)
+		(start 203.835 86.487)
+		(end 245.745 88.392)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -40,8 +40,8 @@
 		(uuid "1c38ab9f-78ac-4525-a905-692b68e0d7be")
 	)
 	(rectangle
-		(start 162.56 96.266)
-		(end 176.53 120.396)
+		(start 204.47 125.222)
+		(end 218.44 149.352)
 		(stroke
 			(width 0)
 			(type default)
@@ -54,8 +54,8 @@
 		(uuid "33939e83-1742-40c8-b78d-5af3b914ab31")
 	)
 	(rectangle
-		(start 203.2 57.531)
-		(end 203.835 156.21)
+		(start 245.11 86.487)
+		(end 245.745 185.166)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -68,7 +68,7 @@
 		(uuid "43ad7506-e0d7-49b6-972c-517451df1dd9")
 	)
 	(circle
-		(center 62.484 131.318)
+		(center 104.394 160.274)
 		(radius 1.016)
 		(stroke
 			(width 0)
@@ -82,8 +82,8 @@
 		(uuid "46a6dafd-85fd-4b48-8439-cf87f95ce845")
 	)
 	(rectangle
-		(start 162.56 86.36)
-		(end 176.53 88.646)
+		(start 204.47 115.316)
+		(end 218.44 117.602)
 		(stroke
 			(width 0)
 			(type default)
@@ -96,8 +96,8 @@
 		(uuid "74c5f5ac-510e-4c99-8e0e-ca2d145a7687")
 	)
 	(rectangle
-		(start 189.23 93.218)
-		(end 203.2 156.21)
+		(start 231.14 122.174)
+		(end 245.11 185.166)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -124,8 +124,8 @@
 		(uuid "96358351-64fb-49b9-98d4-c975a586b1c3")
 	)
 	(rectangle
-		(start 162.56 120.396)
-		(end 176.53 129.286)
+		(start 204.47 149.352)
+		(end 218.44 158.242)
 		(stroke
 			(width 0)
 			(type default)
@@ -138,8 +138,8 @@
 		(uuid "97242065-2f97-4ca3-afed-c927195a53b5")
 	)
 	(rectangle
-		(start 189.23 68.326)
-		(end 203.2 86.36)
+		(start 231.14 97.282)
+		(end 245.11 115.316)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -152,8 +152,8 @@
 		(uuid "a1d8d848-7410-4d32-b8a9-61ddd5529c19")
 	)
 	(rectangle
-		(start 162.56 75.946)
-		(end 176.53 78.74)
+		(start 204.47 104.902)
+		(end 218.44 107.696)
 		(stroke
 			(width 0)
 			(type default)
@@ -166,8 +166,8 @@
 		(uuid "b7a01405-5415-4722-a9d4-e1bc398d69f2")
 	)
 	(rectangle
-		(start 162.56 129.286)
-		(end 176.53 156.21)
+		(start 204.47 158.242)
+		(end 218.44 185.166)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -180,7 +180,7 @@
 		(uuid "c0f61f09-5d95-4ea6-baa5-6b9b5ba11fd4")
 	)
 	(circle
-		(center 62.484 117.602)
+		(center 104.394 146.558)
 		(radius 1.016)
 		(stroke
 			(width 0)
@@ -208,8 +208,8 @@
 		(uuid "ca4906af-4562-456f-b79d-f6f2c9056c36")
 	)
 	(rectangle
-		(start 161.29 57.531)
-		(end 162.56 156.21)
+		(start 203.2 86.487)
+		(end 204.47 185.166)
 		(stroke
 			(width -0.0001)
 			(type solid)
@@ -222,8 +222,8 @@
 		(uuid "dc9ef58a-3544-4871-98b7-f59b2deb6c2b")
 	)
 	(rectangle
-		(start 162.56 65.786)
-		(end 203.835 68.326)
+		(start 204.47 94.742)
+		(end 245.745 97.282)
 		(stroke
 			(width 0)
 			(type default)
@@ -236,7 +236,7 @@
 		(uuid "f6ac3050-3d82-4a34-858d-91b5402f431f")
 	)
 	(circle
-		(center 62.484 103.886)
+		(center 104.394 132.842)
 		(radius 1.016)
 		(stroke
 			(width 0)
@@ -251,7 +251,7 @@
 	)
 	(text "VIC"
 		(exclude_from_sim no)
-		(at 276.606 80.01 0)
+		(at 318.516 108.966 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -264,9 +264,24 @@
 		)
 		(uuid "23593793-e5e2-4dd7-8899-50a4202bb53e")
 	)
+	(text "VBAT/VBUS"
+		(exclude_from_sim no)
+		(at 113.538 122.682 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "37f4db2c-a969-4c05-aa6d-b7cb58308340")
+	)
 	(text "VIC"
 		(exclude_from_sim no)
-		(at 146.812 111.506 0)
+		(at 188.722 140.462 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -281,7 +296,7 @@
 	)
 	(text "VMCU"
 		(exclude_from_sim no)
-		(at 130.81 99.06 90)
+		(at 172.72 128.016 90)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -296,7 +311,7 @@
 	)
 	(text "VLDO"
 		(exclude_from_sim no)
-		(at 131.318 126.746 90)
+		(at 173.228 155.702 90)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -311,7 +326,7 @@
 	)
 	(text "VMCU"
 		(exclude_from_sim no)
-		(at 223.774 58.166 0)
+		(at 265.684 87.122 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -326,7 +341,7 @@
 	)
 	(text_box "LoRa"
 		(exclude_from_sim no)
-		(at 223.266 75.819 0)
+		(at 265.176 104.775 0)
 		(size 34.29 9.3481)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -373,7 +388,7 @@
 	)
 	(text_box "Reg1"
 		(exclude_from_sim no)
-		(at 78.74 98.044 0)
+		(at 120.65 127 0)
 		(size 27.94 11.176)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -397,7 +412,7 @@
 	)
 	(text_box "Reg2"
 		(exclude_from_sim no)
-		(at 78.74 111.76 0)
+		(at 120.65 140.716 0)
 		(size 27.94 11.176)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -443,7 +458,7 @@
 	)
 	(text_box "VBUSOUT (detection only)"
 		(exclude_from_sim no)
-		(at 107.188 88.392 0)
+		(at 149.098 117.348 0)
 		(size 54.102 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -488,7 +503,7 @@
 	)
 	(text_box "MCU\n"
 		(exclude_from_sim no)
-		(at 162.56 58.166 0)
+		(at 204.47 87.122 0)
 		(size 40.64 9.3481)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -511,7 +526,7 @@
 	)
 	(text_box "GPIO"
 		(exclude_from_sim no)
-		(at 162.56 78.74 0)
+		(at 204.47 107.696 0)
 		(size 13.97 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -534,7 +549,7 @@
 	)
 	(text_box "SPI1"
 		(exclude_from_sim no)
-		(at 204.47 86.106 0)
+		(at 246.38 115.062 0)
 		(size 18.288 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -557,7 +572,7 @@
 	)
 	(text_box "\n"
 		(exclude_from_sim no)
-		(at 223.266 84.709 0)
+		(at 265.176 113.665 0)
 		(size 34.29 43.307)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -581,7 +596,7 @@
 	)
 	(text_box "Page #"
 		(exclude_from_sim no)
-		(at 82.55 52.324 0)
+		(at 124.46 81.28 0)
 		(size 17.78 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -605,7 +620,7 @@
 	)
 	(text_box "SPI2"
 		(exclude_from_sim no)
-		(at 204.47 144.145 0)
+		(at 246.38 173.101 0)
 		(size 18.288 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -628,7 +643,7 @@
 	)
 	(text_box "SPI 2"
 		(exclude_from_sim no)
-		(at 189.23 144.145 0)
+		(at 231.14 173.101 0)
 		(size 13.97 7.6199)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -651,7 +666,7 @@
 	)
 	(text_box "\n"
 		(exclude_from_sim no)
-		(at 223.52 143.0519 0)
+		(at 265.43 172.0079 0)
 		(size 34.29 9.602)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -675,7 +690,7 @@
 	)
 	(text_box "SD card"
 		(exclude_from_sim no)
-		(at 223.52 134.1619 0)
+		(at 265.43 163.1179 0)
 		(size 34.29 9.3481)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -698,7 +713,7 @@
 	)
 	(text_box "LoRa_BUSY"
 		(exclude_from_sim no)
-		(at 204.47 120.396 0)
+		(at 246.38 149.352 0)
 		(size 18.288 7.62)
 		(margins 1.1429 1.1429 1.1429 1.1429)
 		(stroke
@@ -721,7 +736,7 @@
 	)
 	(text_box "I2C1"
 		(exclude_from_sim no)
-		(at 107.188 68.326 0)
+		(at 149.098 97.282 0)
 		(size 54.102 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -744,7 +759,7 @@
 	)
 	(text_box "RF_SW"
 		(exclude_from_sim no)
-		(at 204.47 108.966 0)
+		(at 246.38 137.922 0)
 		(size 18.288 7.62)
 		(margins 1.1429 1.1429 1.1429 1.1429)
 		(stroke
@@ -767,7 +782,7 @@
 	)
 	(text_box "GPIO"
 		(exclude_from_sim no)
-		(at 189.23 97.536 0)
+		(at 231.14 126.492 0)
 		(size 13.97 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -859,7 +874,7 @@
 	)
 	(text_box "PMIC"
 		(exclude_from_sim no)
-		(at 78.74 58.166 0)
+		(at 120.65 87.122 0)
 		(size 27.94 9.3481)
 		(margins 2.2859 2.2859 2.2859 2.2859)
 		(stroke
@@ -906,7 +921,7 @@
 	)
 	(text_box "VBUS"
 		(exclude_from_sim no)
-		(at 162.56 88.646 0)
+		(at 204.47 117.602 0)
 		(size 13.97 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -929,7 +944,7 @@
 	)
 	(text_box "GPIO"
 		(exclude_from_sim no)
-		(at 189.23 120.396 0)
+		(at 231.14 149.352 0)
 		(size 13.97 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -952,7 +967,7 @@
 	)
 	(text_box "LDO"
 		(exclude_from_sim no)
-		(at 78.74 125.73 0)
+		(at 120.65 154.686 0)
 		(size 27.94 11.176)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -976,7 +991,7 @@
 	)
 	(text_box "SPI 1"
 		(exclude_from_sim no)
-		(at 189.23 86.106 0)
+		(at 231.14 115.062 0)
 		(size 13.97 7.6199)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -999,7 +1014,7 @@
 	)
 	(text_box "BM_RST, BM_INT"
 		(exclude_from_sim no)
-		(at 107.188 78.486 0)
+		(at 149.098 107.442 0)
 		(size 54.102 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1022,7 +1037,7 @@
 	)
 	(text_box "LS"
 		(exclude_from_sim no)
-		(at 109.22 111.76 0)
+		(at 151.13 140.716 0)
 		(size 19.558 11.176)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1116,7 +1131,7 @@
 	)
 	(text_box "I2C1"
 		(exclude_from_sim no)
-		(at 162.56 68.326 0)
+		(at 204.47 97.282 0)
 		(size 13.97 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1139,7 +1154,7 @@
 	)
 	(text_box "LoRa_RST"
 		(exclude_from_sim no)
-		(at 204.47 97.536 0)
+		(at 246.38 126.492 0)
 		(size 18.288 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1162,7 +1177,7 @@
 	)
 	(text_box "Logic"
 		(exclude_from_sim no)
-		(at 78.74 67.056 0)
+		(at 120.65 96.012 0)
 		(size 27.94 28.956)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1186,7 +1201,7 @@
 	)
 	(text_box "GPIO"
 		(exclude_from_sim no)
-		(at 189.23 108.966 0)
+		(at 231.14 137.922 0)
 		(size 13.97 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1209,7 +1224,7 @@
 	)
 	(text_box "Page 5"
 		(exclude_from_sim no)
-		(at 161.29 50.546 0)
+		(at 203.2 79.502 0)
 		(size 24.765 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1234,7 +1249,7 @@
 	)
 	(text_box "Page #"
 		(exclude_from_sim no)
-		(at 223.266 70.104 0)
+		(at 265.176 99.06 0)
 		(size 17.78 5.08)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
@@ -1259,7 +1274,7 @@
 	)
 	(polyline
 		(pts
-			(xy 78.486 117.602) (xy 62.484 117.602)
+			(xy 120.396 146.558) (xy 104.394 146.558)
 		)
 		(stroke
 			(width 1.016)
@@ -1270,7 +1285,7 @@
 	)
 	(polyline
 		(pts
-			(xy 62.484 117.856) (xy 62.484 131.318)
+			(xy 104.394 146.812) (xy 104.394 160.274)
 		)
 		(stroke
 			(width 1.016)
@@ -1281,7 +1296,7 @@
 	)
 	(polyline
 		(pts
-			(xy 78.486 103.886) (xy 62.484 103.886)
+			(xy 120.396 132.842) (xy 104.394 132.842)
 		)
 		(stroke
 			(width 1.016)
@@ -1292,7 +1307,7 @@
 	)
 	(polyline
 		(pts
-			(xy 78.486 131.318) (xy 62.484 131.318)
+			(xy 120.396 160.274) (xy 104.394 160.274)
 		)
 		(stroke
 			(width 1.016)
@@ -1303,7 +1318,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127.254 134.874) (xy 127.254 131.064)
+			(xy 169.164 163.83) (xy 169.164 160.02)
 		)
 		(stroke
 			(width 1.016)
@@ -1314,7 +1329,7 @@
 	)
 	(polyline
 		(pts
-			(xy 257.556 90.932) (xy 273.558 90.932)
+			(xy 299.466 119.888) (xy 315.468 119.888)
 		)
 		(stroke
 			(width 1.016)
@@ -1325,7 +1340,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.764 112.268) (xy 143.764 117.348)
+			(xy 185.674 141.224) (xy 185.674 146.304)
 		)
 		(stroke
 			(width 1.016)
@@ -1336,7 +1351,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.694 58.674) (xy 218.694 68.834)
+			(xy 260.604 87.63) (xy 260.604 97.79)
 		)
 		(stroke
 			(width 1.016)
@@ -1347,7 +1362,7 @@
 	)
 	(polyline
 		(pts
-			(xy 58.674 93.726) (xy 62.484 93.726)
+			(xy 100.584 122.682) (xy 104.394 122.682)
 		)
 		(stroke
 			(width 1.016)
@@ -1358,7 +1373,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.188 131.064) (xy 121.92 131.064)
+			(xy 149.098 160.02) (xy 163.83 160.02)
 		)
 		(stroke
 			(width 1.016)
@@ -1369,7 +1384,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.764 112.268) (xy 139.954 112.268)
+			(xy 185.674 141.224) (xy 181.864 141.224)
 		)
 		(stroke
 			(width 1.016)
@@ -1380,7 +1395,7 @@
 	)
 	(polyline
 		(pts
-			(xy 62.484 103.886) (xy 62.484 112.776)
+			(xy 104.394 132.842) (xy 104.394 141.732)
 		)
 		(stroke
 			(width 1.016)
@@ -1391,7 +1406,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.032 117.348) (xy 143.764 117.348)
+			(xy 170.942 146.304) (xy 185.674 146.304)
 		)
 		(stroke
 			(width 1.016)
@@ -1402,7 +1417,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127.254 131.064) (xy 127.254 127.254)
+			(xy 169.164 160.02) (xy 169.164 156.21)
 		)
 		(stroke
 			(width 1.016)
@@ -1413,7 +1428,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.962 68.834) (xy 218.694 68.834)
+			(xy 245.872 97.79) (xy 260.604 97.79)
 		)
 		(stroke
 			(width 1.016)
@@ -1424,7 +1439,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 107.442) (xy 127 103.632)
+			(xy 168.91 136.398) (xy 168.91 132.588)
 		)
 		(stroke
 			(width 1.016)
@@ -1435,7 +1450,7 @@
 	)
 	(polyline
 		(pts
-			(xy 62.484 93.726) (xy 62.484 103.886)
+			(xy 104.394 122.682) (xy 104.394 132.842)
 		)
 		(stroke
 			(width 1.016)
@@ -1446,7 +1461,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.558 80.772) (xy 273.558 90.932)
+			(xy 315.468 109.728) (xy 315.468 119.888)
 		)
 		(stroke
 			(width 1.016)
@@ -1457,7 +1472,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.558 80.772) (xy 269.748 80.772)
+			(xy 315.468 109.728) (xy 311.658 109.728)
 		)
 		(stroke
 			(width 1.016)
@@ -1468,7 +1483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 62.484 93.726) (xy 66.294 93.726)
+			(xy 104.394 122.682) (xy 108.204 122.682)
 		)
 		(stroke
 			(width 1.016)
@@ -1479,7 +1494,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.694 58.674) (xy 214.884 58.674)
+			(xy 260.604 87.63) (xy 256.794 87.63)
 		)
 		(stroke
 			(width 1.016)
@@ -1490,7 +1505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.368 80.772) (xy 273.558 80.772)
+			(xy 319.278 109.728) (xy 315.468 109.728)
 		)
 		(stroke
 			(width 1.016)
@@ -1501,7 +1516,7 @@
 	)
 	(polyline
 		(pts
-			(xy 106.934 103.632) (xy 121.666 103.632)
+			(xy 148.844 132.588) (xy 163.576 132.588)
 		)
 		(stroke
 			(width 1.016)
@@ -1512,7 +1527,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.574 112.268) (xy 143.764 112.268)
+			(xy 189.484 141.224) (xy 185.674 141.224)
 		)
 		(stroke
 			(width 1.016)
@@ -1523,7 +1538,7 @@
 	)
 	(polyline
 		(pts
-			(xy 106.934 117.348) (xy 109.22 117.348)
+			(xy 148.844 146.304) (xy 151.13 146.304)
 		)
 		(stroke
 			(width 1.016)
@@ -1534,7 +1549,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127.254 131.064) (xy 122.174 131.064)
+			(xy 169.164 160.02) (xy 164.084 160.02)
 		)
 		(stroke
 			(width 1.016)
@@ -1545,7 +1560,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.504 58.674) (xy 218.694 58.674)
+			(xy 264.414 87.63) (xy 260.604 87.63)
 		)
 		(stroke
 			(width 1.016)
@@ -1556,7 +1571,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 103.632) (xy 121.92 103.632)
+			(xy 168.91 132.588) (xy 163.83 132.588)
 		)
 		(stroke
 			(width 1.016)
@@ -1567,7 +1582,7 @@
 	)
 	(polyline
 		(pts
-			(xy 62.484 112.776) (xy 62.484 117.602)
+			(xy 104.394 141.732) (xy 104.394 146.558)
 		)
 		(stroke
 			(width 1.016)
@@ -1578,7 +1593,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 103.632) (xy 127 99.822)
+			(xy 168.91 132.588) (xy 168.91 128.778)
 		)
 		(stroke
 			(width 1.016)
