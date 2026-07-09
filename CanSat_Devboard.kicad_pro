@@ -1008,6 +1008,10 @@
       "sort_field": "Footprint"
     },
     "bus_aliases": {
+      "CC_BUS": [
+        "CC1",
+        "CC2"
+      ],
       "LoRa_BUS": [
         "LoRa_BUSY",
         "LoRa_SW",

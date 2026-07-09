@@ -753,230 +753,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2806,6 +2582,15 @@
 		(uuid "1987d34e-385d-4fac-ba85-05ab159a03f9")
 	)
 	(bus_entry
+		(at 29.21 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e91f1f4-0820-467f-afb1-40dd7b4367bd")
+	)
+	(bus_entry
 		(at 34.29 49.53)
 		(size 2.54 2.54)
 		(stroke
@@ -2813,6 +2598,15 @@
 			(type default)
 		)
 		(uuid "b198ed75-d362-41b1-b7d3-f1005f1c8a5a")
+	)
+	(bus_entry
+		(at 29.21 135.89)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb01f2c7-f42f-4a32-9e0a-e551ed6fd55b")
 	)
 	(wire
 		(pts
@@ -2956,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 138.43) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3c0cc9-a71a-4504-bc4c-71e4602b64f5")
+	)
+	(wire
+		(pts
 			(xy 187.96 88.9) (xy 187.96 83.82)
 		)
 		(stroke
@@ -3043,6 +2847,16 @@
 			(type default)
 		)
 		(uuid "4aafca4b-8071-490d-8403-e92e2b969dbf")
+	)
+	(bus
+		(pts
+			(xy 29.21 130.81) (xy 29.21 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b91d113-ce9b-4f5a-9eac-bb03cdf6cb6c")
 	)
 	(wire
 		(pts
@@ -3416,6 +3230,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 135.89) (xy 34.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2458d69-ad17-430c-b57e-d776801fc6b9")
+	)
+	(wire
+		(pts
 			(xy 101.6 63.5) (xy 110.49 63.5)
 		)
 		(stroke
@@ -3688,30 +3512,6 @@
 			)
 		)
 	)
-	(global_label "BM_INT"
-		(shape input)
-		(at 266.7 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b80d36b-b488-4578-86f8-d66a6b291c20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.1229 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 72.39 93.98 180)
@@ -3834,7 +3634,7 @@
 	)
 	(global_label "CC2"
 		(shape input)
-		(at 176.53 88.9 0)
+		(at 176.53 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3844,7 +3644,7 @@
 		)
 		(uuid "690766c5-a3c5-443f-a367-d04a25f2f001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2647 88.9 0)
+			(at 183.2647 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,7 +3658,7 @@
 	)
 	(global_label "CC2"
 		(shape input)
-		(at 246.38 43.18 0)
+		(at 34.29 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3868,7 +3668,7 @@
 		)
 		(uuid "7d51bca3-8669-459a-81d3-8dc0cd4d3328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.1147 43.18 0)
+			(at 41.0247 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3880,57 +3680,9 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 228.6 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86fe50d8-0ef0-41bc-b045-6031f8837b60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.1072 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 228.6 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9aa23aca-6368-43ef-a131-590ce0d880e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.0467 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CC1"
 		(shape input)
-		(at 176.53 86.36 0)
+		(at 176.53 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3940,7 +3692,7 @@
 		)
 		(uuid "ac5c74db-7c78-4f93-a2d5-3ea4fbb0c51e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2647 86.36 0)
+			(at 183.2647 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +3778,7 @@
 	)
 	(global_label "CC1"
 		(shape input)
-		(at 246.38 40.64 0)
+		(at 34.29 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4036,7 +3788,7 @@
 		)
 		(uuid "d9ee3bb8-7ad0-4853-928d-1e7cea256a9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.1147 40.64 0)
+			(at 41.0247 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4096,30 +3848,6 @@
 			)
 		)
 	)
-	(global_label "BM_RST"
-		(shape input)
-		(at 266.7 20.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f740757d-968f-421a-a59b-34b4fb4faf8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.5787 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(hierarchical_label "{PMIC_BUS}"
 		(shape input)
 		(at 34.29 40.64 90)
@@ -4130,6 +3858,17 @@
 			(justify left)
 		)
 		(uuid "0d75a986-47f3-42be-a037-8828b1fa3cc7")
+	)
+	(hierarchical_label "{CC_BUS}"
+		(shape input)
+		(at 29.21 130.81 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a4c8086-ba13-4851-bbc7-afcb39fc5c77")
 	)
 	(hierarchical_label "VBUSOUT"
 		(shape input)
@@ -4219,85 +3958,6 @@
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 63.5 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04157e28-3897-46ad-9e2f-5e68cedfef39")
-		(property "Reference" "#PWR09"
-			(at 59.69 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 67.31 170.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 63.5 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66de609d-a03f-4d54-93c8-af6bd62d93dd")
-		)
-		(instances
-			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4614,119 +4274,6 @@
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 58.42 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22807af4-fe51-41ef-84f3-2e2f348ae810")
-		(property "Reference" "BT1"
-			(at 60.2615 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1S Lipo"
-			(at 60.2615 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 59.944 170.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.944 170.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61dfba4d-6906-4561-82bb-3f5f6eb9d381")
-		)
-		(pin "2"
-			(uuid "26657d5b-de57-4cc4-9b5e-0a33fbf288d9")
-		)
-		(instances
-			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -8111,85 +7658,6 @@
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4e009ac-e64d-4601-b41e-28c0a0dccccf")
-		(property "Reference" "#PWR07"
-			(at 49.53 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36cfa9ed-3e3e-4c1a-821e-627063e74911")
-		)
-		(instances
-			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)

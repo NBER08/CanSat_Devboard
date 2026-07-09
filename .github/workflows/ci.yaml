@@ -185,6 +185,18 @@ jobs:
           config: ${{ env.kibot_config }}
           additional_args: --log kibot_run_readme.log md_readme
 
+
+    #1
+
+      - name: Generate README only (KiCad 10)
+        if: ${{ env.kicad_version == '10' && env.kibot_variant == 'DRAFT' }}
+        uses: INTI-CMNB/KiBot@v2_dk10
+        with:
+          skip: draw_fancy_stackup,set_text_variables,erc,drc
+          variant: ${{ env.kibot_variant }}
+          config: ${{ env.kibot_config }}
+          additional_args: --log kibot_run_readme.log md_readme
+
       # Generate outputs
       - name: Generate outputs (KiCad 8)
         if: ${{ env.kicad_version == '8' }}

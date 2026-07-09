@@ -1974,6 +1974,24 @@
 		(at 198.12 97.79)
 		(uuid "e7bcb99c-baa0-427e-b8f0-6accde2709bc")
 	)
+	(bus_entry
+		(at 48.26 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7260eca9-deb4-4422-abb6-68636fbef181")
+	)
+	(bus_entry
+		(at 48.26 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb2575e-9f1c-4d26-9e54-fca74bdcc14c")
+	)
 	(wire
 		(pts
 			(xy 106.68 120.65) (xy 114.3 120.65)
@@ -1983,6 +2001,16 @@
 			(type default)
 		)
 		(uuid "0281a4b2-5ed1-42e3-b66c-c585434a1bfc")
+	)
+	(wire
+		(pts
+			(xy 50.8 82.55) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bd2622-6e98-4c66-a8aa-e68f7bd5a3b8")
 	)
 	(wire
 		(pts
@@ -2023,6 +2051,16 @@
 			(type default)
 		)
 		(uuid "38fe1721-4b60-4541-95bf-384cf09851bb")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 53.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc56020-a62d-48b4-8161-d7de8c329269")
 	)
 	(wire
 		(pts
@@ -2073,6 +2111,16 @@
 			(type default)
 		)
 		(uuid "87521f50-6de6-46ef-8411-b40249a4d05a")
+	)
+	(bus
+		(pts
+			(xy 48.26 74.93) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c087727-2841-429c-b4e2-a6f808c9d7c1")
 	)
 	(wire
 		(pts
@@ -2142,6 +2190,54 @@
 			)
 		)
 	)
+	(global_label "CC2"
+		(shape input)
+		(at 53.34 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1da56a0-af1f-4092-9d8d-73fc681fbbaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.0747 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CC1"
+		(shape input)
+		(at 53.34 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db249926-434c-4d08-a7cf-410b125c9cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.0747 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "D+"
 		(shape input)
 		(at 172.72 97.79 180)
@@ -2163,6 +2259,17 @@
 			(justify left)
 		)
 		(uuid "7c0c7a79-bf08-43db-9388-bb3b294ef049")
+	)
+	(hierarchical_label "{CC_BUS}"
+		(shape input)
+		(at 48.26 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b34bc3c5-d783-4902-9ae5-37bc10eb3ec4")
 	)
 	(hierarchical_label "D+"
 		(shape input)

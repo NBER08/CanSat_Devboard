@@ -103,7 +103,9 @@
     (property "Value" "RAK3172" (id 1) (at -22.86 -27.94 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    
+    (property "Footprint" "RAK3172:XCVR_RAK3172" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
     (property "MF" "Shenzhen RAKwireless Technology Co.,Ltd." (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
@@ -145,14 +147,6 @@
     )
     (property "MANUFACTURER" "Shenzhen RAKwireless Technology Co.,Ltd." (id 17) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Footprint" "Project_Components:XCVR_RAK3172"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Project_Components:XCVR_RAK3172"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "RAK3172_0_0"
       (rectangle (start -22.86 -25.4) (end 22.86 25.4)
