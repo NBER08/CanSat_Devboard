@@ -1583,7 +1583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a57754a-ec18-44aa-84dc-b98970df06b7")
-		(property "Reference" "C13"
+		(property "Reference" "C4"
 			(at 175.26 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1647,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1664,7 +1664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b65bf9d-e298-46da-af1d-46da5444d1ac")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 147.828 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1728,7 +1728,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1746,7 +1746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "150810dd-cad5-497d-a5ae-40dee57eaff1")
-		(property "Reference" "C12"
+		(property "Reference" "C3"
 			(at 161.544 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,7 +1810,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46db1a58-4142-4b95-bcaa-1aae55117cad")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 155.448 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1891,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1908,7 +1908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "883019d3-99e0-4f70-a780-96e014ef701c")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 163.068 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1972,7 +1972,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1990,7 +1990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95264a27-4bf4-4c91-a03f-6287bc014a1c")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 120.65 77.5356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2181,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2199,7 +2199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2446160-84da-4a36-a4a4-4ba9d322e972")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 180.34 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2260,7 +2260,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2279,7 +2279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e53eeb50-2119-44cf-992b-a96ee7f8bb7c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 173.99 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2340,7 +2340,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2358,7 +2358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7cff796-c3bf-4994-b4a6-f97d67d5a85e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 153.67 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2418,7 +2418,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

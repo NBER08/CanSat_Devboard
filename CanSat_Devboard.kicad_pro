@@ -916,7 +916,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "Manufacturing/Assembly/KDT_Hierarchical_KiBot-bom-k8.csv",
     "bom_fmt_presets": [],
