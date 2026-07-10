@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-ixemwbme/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-yjgt9145/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -61,7 +61,7 @@
 		(textvar
 			(name "SHEET_NAME_1") "Cover Page")
 		(textvar
-			(name "SHEET_NAME_10") "Revision History")
+			(name "SHEET_NAME_10") "......................................")
 		(textvar
 			(name "SHEET_NAME_11") "......................................")
 		(textvar
@@ -133,11 +133,11 @@
 		(textvar
 			(name "SHEET_NAME_6") "SD card")
 		(textvar
-			(name "SHEET_NAME_7") "Misc")
+			(name "SHEET_NAME_7") "Power")
 		(textvar
-			(name "SHEET_NAME_8") "Power")
+			(name "SHEET_NAME_8") "USB")
 		(textvar
-			(name "SHEET_NAME_9") "USB")
+			(name "SHEET_NAME_9") "Revision History")
 		(textvar
 			(name "VARIANT") "DRAFT")
 		(textvar
@@ -432,54 +432,6 @@
 		)
 		(sheet
 			(number "7")
-			(name "/Project Architecture/Misc/")
-			(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			(title_block
-				(title)
-				(company)
-				(rev)
-				(date)
-				(source "Misc.kicad_sch")
-				(comment
-					(number "1")
-					(value "")
-				)
-				(comment
-					(number "2")
-					(value "")
-				)
-				(comment
-					(number "3")
-					(value "")
-				)
-				(comment
-					(number "4")
-					(value "")
-				)
-				(comment
-					(number "5")
-					(value "")
-				)
-				(comment
-					(number "6")
-					(value "")
-				)
-				(comment
-					(number "7")
-					(value "")
-				)
-				(comment
-					(number "8")
-					(value "")
-				)
-				(comment
-					(number "9")
-					(value "")
-				)
-			)
-		)
-		(sheet
-			(number "8")
 			(name "/Project Architecture/Power/")
 			(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
 			(title_block
@@ -527,7 +479,7 @@
 			)
 		)
 		(sheet
-			(number "9")
+			(number "8")
 			(name "/Project Architecture/USB/")
 			(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427/")
 			(title_block
@@ -575,7 +527,7 @@
 			)
 		)
 		(sheet
-			(number "10")
+			(number "9")
 			(name "/Revision History/")
 			(tstamps "/6e125bd6-2f99-4e5d-b3ea-4899f4540739/")
 			(title_block
@@ -733,6 +685,276 @@
 			)
 		)
 		(comp
+			(ref "J1")
+			(value "I2C")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Pin")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "OBC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "OBC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/OBC/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
+			)
+			(tstamps "b2ee7fbc-162e-417e-8560-0893d8793054")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_02x07_Counter_Clockwise")
+			(description "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x07_Counter_Clockwise")
+				(description "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "OBC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "OBC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/OBC/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
+			)
+			(tstamps "d39d2bac-e651-43ee-99c2-031f4f275226")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "SWD")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x03_Odd_Even")
+				(description "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "OBC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "OBC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/OBC/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
+			)
+			(tstamps "284ab450-9de1-4746-accb-45d89360be50")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "RMF")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Pin")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "OBC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "OBC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/OBC/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
+			)
+			(tstamps "6030065c-8b16-4b3d-b20f-2cf9e3217cf7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "L1")
 			(value "10u(DNP)")
 			(footprint "Inductor_SMD:L_Changjiang_FTC201610D")
@@ -778,6 +1000,106 @@
 				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
 			)
 			(tstamps "3db2ff8e-41a4-43e2-9b80-673aea3509f8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "SW_Push")
+			(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "OBC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "OBC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/Project Architecture/OBC/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
+			)
+			(tstamps "f0953d25-3745-45b0-8da6-2e58e5fc6a9b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW5")
+			(value "RST")
+			(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "OBC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "OBC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/Project Architecture/OBC/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
+			)
+			(tstamps "922e7202-5ab0-44ed-9229-203535ef67d1")
 			(units
 				(unit
 					(name "A")
@@ -1620,7 +1942,7 @@
 			)
 		)
 		(comp
-			(ref "BT1")
+			(ref "BT2")
 			(value "1S Lipo")
 			(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
 			(description "Single-cell battery")
@@ -1658,21 +1980,21 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "Misc")
+				(value "Power")
 			)
 			(property
 				(name "Sheetfile")
-				(value "Misc.kicad_sch")
+				(value "Power.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
 				(value "battery cell")
 			)
 			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
+				(names "/Project Architecture/Power/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
 			)
-			(tstamps "ea3374cf-167c-45a3-8a96-d13159243a52")
+			(tstamps "a9406eea-9809-4f7e-b6d5-9e75f5b713c3")
 			(units
 				(unit
 					(name "A")
@@ -1682,430 +2004,6 @@
 						)
 						(pin
 							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J2")
-			(value "SWD")
-			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
-			(fields
-				(field
-					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Connector_Generic")
-				(part "Conn_02x03_Odd_Even")
-				(description "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "connector")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Connector*:*_2x??_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "b5b240b8-830d-4bfb-8466-750c041d09fa")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "6")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J3")
-			(value "RMF")
-			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-			(description "Generic connector, single row, 01x02, script generated")
-			(fields
-				(field
-					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Generic connector, single row, 01x02, script generated")
-			)
-			(libsource
-				(lib "Connector")
-				(part "Conn_01x02_Pin")
-				(description "Generic connector, single row, 01x02, script generated")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "connector")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Connector*:*_1x??_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "70cd7b87-cd57-4635-a0ab-ba886f113fd3")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "SW1")
-			(value "SW_Push")
-			(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
-			(description "Push button switch, generic, two pins")
-			(fields
-				(field
-					(name "Footprint") "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Push button switch, generic, two pins")
-			)
-			(libsource
-				(lib "Switch")
-				(part "SW_Push")
-				(description "Push button switch, generic, two pins")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "switch normally-open pushbutton push-button")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "83fbd18a-635a-42e6-be1f-74e254938fc9")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "SW2")
-			(value "RST")
-			(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
-			(description "Push button switch, generic, two pins")
-			(fields
-				(field
-					(name "Footprint") "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Push button switch, generic, two pins")
-			)
-			(libsource
-				(lib "Switch")
-				(part "SW_Push")
-				(description "Push button switch, generic, two pins")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "switch normally-open pushbutton push-button")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "f2293b6c-ee7b-4249-bda9-720c491decf0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP1")
-			(value "VMCU")
-			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "bc1bc35c-04df-4958-80c2-a372dfbad2f8")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP2")
-			(value "3V3")
-			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "ac98fa7f-5aef-4932-b698-3f421ac8b565")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP3")
-			(value "VSYS")
-			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "cefccfed-236c-43b3-b570-2f5e39e00344")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP4")
-			(value "VLDO")
-			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Sheetname")
-				(value "Misc")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Misc.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Misc/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9/")
-			)
-			(tstamps "0911bec4-53e1-493a-8664-e3fdd4ca447e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
 						)
 					)
 				)
@@ -2778,60 +2676,6 @@
 			)
 		)
 		(comp
-			(ref "JP1")
-			(value "Jumper_2_Bridged")
-			(description "Jumper, 2-pole, closed/bridged")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Jumper, 2-pole, closed/bridged")
-			)
-			(libsource
-				(lib "Jumper")
-				(part "Jumper_2_Bridged")
-				(description "Jumper, 2-pole, closed/bridged")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "Jumper SPST")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Power/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
-			)
-			(tstamps "6e2ae13e-b298-4911-9ac7-b72cb7fed257")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "L4")
 			(value "2u2")
 			(footprint "Inductor_SMD:L_1812_4532Metric")
@@ -3482,6 +3326,210 @@
 			)
 		)
 		(comp
+			(ref "TP7")
+			(value "VMCU")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Power/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
+			)
+			(tstamps "f5df8873-3cc9-402f-bee8-a673f5d41603")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "VSYS")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Power/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
+			)
+			(tstamps "1fec9364-fc3a-442e-aed3-7a1ebb30bd86")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP9")
+			(value "3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Power/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
+			)
+			(tstamps "5c65b930-71a8-42a1-9d23-adfb07783b24")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP10")
+			(value "VLDO")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Power/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
+			)
+			(tstamps "3b5ea041-9299-400c-9fd9-0b829ed42f04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "U4")
 			(value "NPM1300-QEAA-R7")
 			(footprint "Project_Components:QFN32_5X5_NOR")
@@ -3829,108 +3877,6 @@
 			)
 		)
 		(comp
-			(ref "TP5")
-			(value "CC1")
-			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Sheetname")
-				(value "USB")
-			)
-			(property
-				(name "Sheetfile")
-				(value "USB.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/Project Architecture/USB/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427/")
-			)
-			(tstamps "1ce6a7fc-3242-4b54-a192-a7877b315b16")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "TP6")
-			(value "CC2")
-			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
-			(description "test point")
-			(fields
-				(field
-					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "test point")
-			)
-			(libsource
-				(lib "Connector")
-				(part "TestPoint")
-				(description "test point")
-			)
-			(property
-				(name "Sheetname")
-				(value "USB")
-			)
-			(property
-				(name "Sheetfile")
-				(value "USB.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "test point tp")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Pin* Test*")
-			)
-			(sheetpath
-				(names "/Project Architecture/USB/")
-				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427/")
-			)
-			(tstamps "ba9708d8-38ac-4c0b-8aa7-e42c795eafcb")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "U3")
 			(value "SRV05-4")
 			(footprint "Package_TO_SOT_SMD:SOT-23-6_Handsoldering")
@@ -4051,6 +3997,50 @@
 				(pin
 					(num "2")
 					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x04_Pin")
+			(description "Generic connector, single row, 01x04, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
 					(type "passive")
 				)
 			)
@@ -4244,6 +4234,100 @@
 				(pin
 					(num "6")
 					(name "Pin_6")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_02x07_Counter_Clockwise")
+			(description "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_2x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_02x07_Counter_Clockwise")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
 					(type "passive")
 				)
 			)
@@ -4528,42 +4612,6 @@
 				(pin
 					(num "2")
 					(name "")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Jumper")
-			(part "Jumper_2_Bridged")
-			(description "Jumper, 2-pole, closed/bridged")
-			(footprints
-				(fp "Jumper*")
-				(fp "TestPoint*2Pads*")
-				(fp "TestPoint*Bridge*")
-			)
-			(fields
-				(field
-					(name "Reference") "JP")
-				(field
-					(name "Value") "Jumper_2_Bridged")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Jumper, 2-pole, closed/bridged")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "A")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "B")
 					(type "passive")
 				)
 			)
@@ -5348,10 +5396,6 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
 		)
 		(library
-			(logical "Jumper")
-			(uri "${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym")
-		)
-		(library
 			(logical "Power_Protection")
 			(uri "${KICAD10_SYMBOL_DIR}/Power_Protection.kicad_sym")
 		)
@@ -5382,6 +5426,18 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
 				(ref "J5")
 				(pin "4")
 				(pinfunction "VDD_4")
@@ -5403,7 +5459,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "TP2")
+				(ref "TP9")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -5420,7 +5476,7 @@
 			(name "+3V3")
 			(class "Power 3V3")
 			(node
-				(ref "J2")
+				(ref "J6")
 				(pin "1")
 				(pinfunction "Pin_1_1")
 				(pintype "passive")
@@ -5439,23 +5495,6 @@
 		)
 		(net
 			(code "7")
-			(name "/Project Architecture/Misc/RMF")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "10")
-				(pinfunction "P0.30/AIN6_10")
-				(pintype "bidirectional")
-			)
-		)
-		(net
-			(code "9")
 			(name "/Project Architecture/OBC/D+")
 			(class "Default")
 			(node
@@ -5484,7 +5523,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "8")
 			(name "/Project Architecture/OBC/D-")
 			(class "Default")
 			(node
@@ -5513,7 +5552,24 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "9")
+			(name "/Project Architecture/OBC/RMF")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "P0.30/AIN6_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
 			(name "/Project Architecture/Power/PVSS1")
 			(class "Default")
 			(node
@@ -5540,7 +5596,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "13")
 			(name "/Project Architecture/Power/PVSS2")
 			(class "Default")
 			(node
@@ -5567,7 +5623,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "15")
 			(name "BM_INT")
 			(class "Default")
 			(node
@@ -5584,7 +5640,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "16")
 			(name "BM_RST")
 			(class "Default")
 			(node
@@ -5601,7 +5657,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "17")
 			(name "CC1")
 			(class "Default")
 			(node
@@ -5611,12 +5667,6 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "TP5")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U4")
 				(pin "24")
 				(pinfunction "CC2_24")
@@ -5624,7 +5674,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "18")
 			(name "CC2")
 			(class "Default")
 			(node
@@ -5634,12 +5684,6 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "TP6")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U4")
 				(pin "23")
 				(pinfunction "CC1_23")
@@ -5647,7 +5691,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "CS")
 			(class "Default")
 			(node
@@ -5669,11 +5713,11 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "20")
 			(name "GND")
 			(class "GND")
 			(node
-				(ref "BT1")
+				(ref "BT2")
 				(pin "2")
 				(pinfunction "-_2")
 				(pintype "passive")
@@ -5736,15 +5780,15 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J2")
-				(pin "5")
-				(pinfunction "Pin_5_5")
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
 				(pintype "passive")
 			)
 			(node
-				(ref "J3")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(ref "J2")
+				(pin "13")
+				(pinfunction "Pin_13_13")
 				(pintype "passive")
 			)
 			(node
@@ -5778,6 +5822,18 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J6")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "NT1")
 				(pin "1")
 				(pinfunction "1_1")
@@ -5800,19 +5856,19 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "SW1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW2")
+				(ref "SW3")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
 			)
 			(node
 				(ref "SW4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "passive")
@@ -5855,7 +5911,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "21")
 			(name "LoRa_BUSY")
 			(class "Default")
 			(node
@@ -5872,7 +5928,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "22")
 			(name "LoRa_MISO")
 			(class "Default")
 			(node
@@ -5889,7 +5945,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "23")
 			(name "LoRa_MOSI")
 			(class "Default")
 			(node
@@ -5906,7 +5962,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "24")
 			(name "LoRa_NSS")
 			(class "Default")
 			(node
@@ -5923,7 +5979,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "25")
 			(name "LoRa_RST")
 			(class "Default")
 			(node
@@ -5940,7 +5996,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "26")
 			(name "LoRa_SCK")
 			(class "Default")
 			(node
@@ -5957,7 +6013,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "27")
 			(name "LoRa_SW")
 			(class "Default")
 			(node
@@ -5974,7 +6030,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "28")
 			(name "MISO")
 			(class "Default")
 			(node
@@ -5996,7 +6052,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "29")
 			(name "MOSI")
 			(class "Default")
 			(node
@@ -6018,7 +6074,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "30")
 			(name "Net-(D4-A)")
 			(class "Default")
 			(node
@@ -6034,7 +6090,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "31")
 			(name "Net-(D4-K)")
 			(class "Default")
 			(node
@@ -6051,7 +6107,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "32")
 			(name "Net-(D5-A)")
 			(class "Default")
 			(node
@@ -6067,7 +6123,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "33")
 			(name "Net-(D5-K)")
 			(class "Default")
 			(node
@@ -6084,7 +6140,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "34")
 			(name "Net-(D6-A)")
 			(class "Default")
 			(node
@@ -6100,7 +6156,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "35")
 			(name "Net-(D6-K)")
 			(class "Default")
 			(node
@@ -6117,7 +6173,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "36")
 			(name "Net-(FB1-Pad1)")
 			(class "Default")
 			(node
@@ -6151,7 +6207,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "37")
 			(name "Net-(U1A-DCCH)")
 			(class "Default")
 			(node
@@ -6167,7 +6223,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "38")
 			(name "Net-(U1B-P0.00{slash}XL1)")
 			(class "Default")
 			(node
@@ -6189,7 +6245,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "39")
 			(name "Net-(U1B-P0.01{slash}XL2)")
 			(class "Default")
 			(node
@@ -6211,7 +6267,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "40")
 			(name "Net-(U4A-SHPHLD)")
 			(class "Default")
 			(node
@@ -6228,7 +6284,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "41")
 			(name "Net-(U4A-VSET1)")
 			(class "Default")
 			(node
@@ -6244,7 +6300,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "42")
 			(name "Net-(U4A-VSET2)")
 			(class "Default")
 			(node
@@ -6260,17 +6316,17 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "43")
 			(name "RST")
 			(class "Default")
 			(node
-				(ref "J2")
+				(ref "J6")
 				(pin "3")
 				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 			(node
-				(ref "SW2")
+				(ref "SW5")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -6283,7 +6339,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "44")
 			(name "SCK")
 			(class "Default")
 			(node
@@ -6300,9 +6356,15 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "45")
 			(name "SCL")
 			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
 			(node
 				(ref "R11")
 				(pin "2")
@@ -6322,9 +6384,15 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "46")
 			(name "SDA")
 			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
 			(node
 				(ref "R12")
 				(pin "1")
@@ -6344,11 +6412,11 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "47")
 			(name "SW0")
 			(class "Default")
 			(node
-				(ref "SW1")
+				(ref "SW3")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -6361,7 +6429,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "48")
 			(name "SW1")
 			(class "Default")
 			(node
@@ -6377,7 +6445,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "49")
 			(name "SW2")
 			(class "Default")
 			(node
@@ -6393,11 +6461,11 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "50")
 			(name "SWDCLK")
 			(class "Default")
 			(node
-				(ref "J2")
+				(ref "J6")
 				(pin "4")
 				(pinfunction "Pin_4_4")
 				(pintype "passive")
@@ -6410,11 +6478,11 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "51")
 			(name "SWDIO")
 			(class "Default")
 			(node
-				(ref "J2")
+				(ref "J6")
 				(pin "2")
 				(pinfunction "Pin_2_2")
 				(pintype "passive")
@@ -6427,11 +6495,11 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "52")
 			(name "VBAT")
 			(class "Default")
 			(node
-				(ref "BT1")
+				(ref "BT2")
 				(pin "1")
 				(pinfunction "+_1")
 				(pintype "passive")
@@ -6449,7 +6517,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "53")
 			(name "VBUS")
 			(class "Default")
 			(node
@@ -6470,7 +6538,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "54")
 			(name "VBUSOUT")
 			(class "Default")
 			(node
@@ -6492,11 +6560,11 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "55")
 			(name "VLDO")
 			(class "Default")
 			(node
-				(ref "TP4")
+				(ref "TP10")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -6509,7 +6577,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "56")
 			(name "VMCU")
 			(class "Default")
 			(node
@@ -6533,7 +6601,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "TP1")
+				(ref "TP7")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -6564,7 +6632,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "57")
 			(name "VOUT2")
 			(class "Default")
 			(node
@@ -6591,7 +6659,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "58")
 			(name "VSYS")
 			(class "Default")
 			(node
@@ -6635,7 +6703,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "TP3")
+				(ref "TP8")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "passive")
@@ -6660,7 +6728,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "59")
 			(name "unconnected-(IC1-ANT-Pad9)")
 			(class "Default")
 			(node
@@ -6671,7 +6739,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "60")
 			(name "unconnected-(IC1-DIO1-Pad12)")
 			(class "Default")
 			(node
@@ -6682,18 +6750,139 @@
 			)
 		)
 		(net
+			(code "61")
+			(name "unconnected-(J2-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
 			(code "62")
+			(name "unconnected-(J2-Pin_2-Pad2)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(J2-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J2-Pin_4-Pad4)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(J2-Pin_5-Pad5)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "66")
 			(name "unconnected-(J2-Pin_6-Pad6)")
 			(class "Default")
 			(node
 				(ref "J2")
 				(pin "6")
 				(pinfunction "Pin_6_6")
-				(pintype "passive+no_connect")
+				(pintype "passive")
 			)
 		)
 		(net
-			(code "63")
+			(code "67")
+			(name "unconnected-(J2-Pin_7-Pad7)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(J2-Pin_8-Pad8)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(J2-Pin_9-Pad9)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(J2-Pin_10-Pad10)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(J2-Pin_11-Pad11)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(J2-Pin_12-Pad12)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "73")
 			(name "unconnected-(J4-SBU1-PadA8)")
 			(class "Default")
 			(node
@@ -6704,7 +6893,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "74")
 			(name "unconnected-(J4-SBU2-PadB8)")
 			(class "Default")
 			(node
@@ -6715,7 +6904,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "75")
 			(name "unconnected-(J5-CDSW1-Pad9)")
 			(class "Default")
 			(node
@@ -6732,7 +6921,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "76")
 			(name "unconnected-(J5-CDSW2-Pad10)")
 			(class "Default")
 			(node
@@ -6749,7 +6938,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "77")
 			(name "unconnected-(J5-DAT1-Pad8)")
 			(class "Default")
 			(node
@@ -6760,7 +6949,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "78")
 			(name "unconnected-(J5-DAT2-Pad1)")
 			(class "Default")
 			(node
@@ -6771,7 +6960,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "79")
 			(name "unconnected-(J5-VSS-Pad6)")
 			(class "Default")
 			(node
@@ -6782,29 +6971,18 @@
 			)
 		)
 		(net
-			(code "70")
-			(name "unconnected-(JP1-A-Pad1)")
+			(code "80")
+			(name "unconnected-(J6-Pin_6-Pad6)")
 			(class "Default")
 			(node
-				(ref "JP1")
-				(pin "1")
-				(pinfunction "A_1")
-				(pintype "passive")
+				(ref "J6")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive+no_connect")
 			)
 		)
 		(net
-			(code "71")
-			(name "unconnected-(JP1-B-Pad2)")
-			(class "Default")
-			(node
-				(ref "JP1")
-				(pin "2")
-				(pinfunction "B_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "72")
+			(code "81")
 			(name "unconnected-(U1B-P0.06-Pad14)")
 			(class "Default")
 			(node
@@ -6815,7 +6993,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "82")
 			(name "unconnected-(U1B-P0.08-Pad16)")
 			(class "Default")
 			(node
@@ -6826,7 +7004,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "83")
 			(name "unconnected-(U1B-P0.09{slash}NFC1-Pad41)")
 			(class "Default")
 			(node
@@ -6837,7 +7015,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "84")
 			(name "unconnected-(U1B-P0.10{slash}NFC2-Pad43)")
 			(class "Default")
 			(node
@@ -6848,7 +7026,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "85")
 			(name "unconnected-(U1B-P0.13-Pad33)")
 			(class "Default")
 			(node
@@ -6859,7 +7037,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "86")
 			(name "unconnected-(U1B-P0.15-Pad28)")
 			(class "Default")
 			(node
@@ -6870,7 +7048,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "87")
 			(name "unconnected-(U1B-P0.17-Pad30)")
 			(class "Default")
 			(node
@@ -6881,7 +7059,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "88")
 			(name "unconnected-(U1B-P0.20-Pad32)")
 			(class "Default")
 			(node
@@ -6892,7 +7070,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "89")
 			(name "unconnected-(U1B-P0.22-Pad34)")
 			(class "Default")
 			(node
@@ -6903,7 +7081,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "90")
 			(name "unconnected-(U1B-P0.24-Pad35)")
 			(class "Default")
 			(node
@@ -6914,7 +7092,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "91")
 			(name "unconnected-(U1B-P0.26-Pad12)")
 			(class "Default")
 			(node
@@ -6925,7 +7103,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "92")
 			(name "unconnected-(U1C-P1.09-Pad17)")
 			(class "Default")
 			(node
@@ -6936,7 +7114,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "93")
 			(name "unconnected-(U3-IO2-Pad3)")
 			(class "Default")
 			(node
@@ -6947,7 +7125,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "94")
 			(name "unconnected-(U3-IO3-Pad4)")
 			(class "Default")
 			(node
@@ -6958,7 +7136,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "95")
 			(name "unconnected-(U4A-GPIO2-Pad9)")
 			(class "Default")
 			(node
@@ -6969,7 +7147,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "96")
 			(name "unconnected-(U4A-GPIO3-Pad10)")
 			(class "Default")
 			(node
@@ -6980,7 +7158,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "97")
 			(name "unconnected-(U4A-GPIO4-Pad11)")
 			(class "Default")
 			(node
