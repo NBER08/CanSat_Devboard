@@ -1422,7 +1422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "00_lora:wio-sx1262"
+		(property "Footprint" "Project_Components:114993390"
 			(at 130.81 78.74 0)
 			(hide yes)
 			(show_name no)

@@ -5,7 +5,7 @@
   "footprint_library_name": "Project_Components",
   "project_root": "/home/nber08/Documents/CanSat_Devboard",
   "source_zip": "/home/nber08/Downloads/LIB_114993390.zip",
-  "imported_at": "2026-07-10T11:17:16",
+  "imported_at": "2026-07-06T22:09:16",
   "imported_assets": {
     "selected_symbol_library": "/home/nber08/Documents/CanSat_Devboard/libraries/Project_Components.kicad_sym",
     "selected_footprint_library": "/home/nber08/Documents/CanSat_Devboard/libraries/Project_Components.pretty",
@@ -21,9 +21,7 @@
         "merged_symbol_names": [
           "114993390"
         ],
-        "replaced_existing_symbols": [
-          "114993390"
-        ],
+        "replaced_existing_symbols": [],
         "updated": true,
         "message": "Merged 1 symbol(s)."
       }
@@ -80,16 +78,11 @@
       }
     ],
     "backups": [
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/source_zips/114993390_LIB_114993390.zip",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/metadata/How_To_Use_Models.pdf",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/Project_Components.kicad_sym",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/Project_Components.pretty/114993390.kicad_mod",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/3dmodels/114993390.stp",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/Project_Components.kicad_sym",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/Project_Components.pretty/114993390.kicad_mod",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/fp-lib-table",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/sym-lib-table",
-      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-10_11-17-16/libraries/metadata/114993390_import_metadata.json"
+      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-06_22-09-16/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-06_22-09-16/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-06_22-09-16/libraries/Project_Components.pretty/114993390.kicad_mod",
+      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-06_22-09-16/fp-lib-table",
+      "/home/nber08/Documents/CanSat_Devboard/libraries/backups/2026-07-06_22-09-16/sym-lib-table"
     ]
   }
 }
