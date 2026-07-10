@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-mq4b0bfn/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-ixemwbme/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -17,7 +17,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "905e110")
+			(name "GIT_HASH_PCB") "d468186")
 		(textvar
 			(name "GIT_HASH_SCH") "4dd37a5")
 		(textvar
@@ -2778,13 +2778,67 @@
 			)
 		)
 		(comp
+			(ref "JP1")
+			(value "Jumper_2_Bridged")
+			(description "Jumper, 2-pole, closed/bridged")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Jumper, 2-pole, closed/bridged")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "Jumper_2_Bridged")
+				(description "Jumper, 2-pole, closed/bridged")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Power.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Power/")
+				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/")
+			)
+			(tstamps "6e2ae13e-b298-4911-9ac7-b72cb7fed257")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "L4")
 			(value "2u2")
-			(footprint "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder")
+			(footprint "Inductor_SMD:L_1812_4532Metric")
 			(description "Inductor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder")
+					(name "Footprint") "Inductor_SMD:L_1812_4532Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2834,11 +2888,11 @@
 		(comp
 			(ref "L5")
 			(value "2u2")
-			(footprint "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder")
+			(footprint "Inductor_SMD:L_1812_4532Metric")
 			(description "Inductor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder")
+					(name "Footprint") "Inductor_SMD:L_1812_4532Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2888,11 +2942,11 @@
 		(comp
 			(ref "NT1")
 			(value "NetTie_2")
-			(footprint "NetTie:NetTie-2_SMD_Pad2.0mm")
+			(footprint "Project_Components:Net_tie_1mm")
 			(description "Net tie, 2 pins")
 			(fields
 				(field
-					(name "Footprint") "NetTie:NetTie-2_SMD_Pad2.0mm")
+					(name "Footprint") "Project_Components:Net_tie_1mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2945,11 +2999,11 @@
 		(comp
 			(ref "NT2")
 			(value "NetTie_2")
-			(footprint "NetTie:NetTie-2_SMD_Pad2.0mm")
+			(footprint "Project_Components:Net_tie_1mm")
 			(description "Net tie, 2 pins")
 			(fields
 				(field
-					(name "Footprint") "NetTie:NetTie-2_SMD_Pad2.0mm")
+					(name "Footprint") "Project_Components:Net_tie_1mm")
 				(field
 					(name "Datasheet")
 				)
@@ -4479,6 +4533,42 @@
 			)
 		)
 		(libpart
+			(lib "Jumper")
+			(part "Jumper_2_Bridged")
+			(description "Jumper, 2-pole, closed/bridged")
+			(footprints
+				(fp "Jumper*")
+				(fp "TestPoint*2Pads*")
+				(fp "TestPoint*Bridge*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "Jumper_2_Bridged")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Jumper, 2-pole, closed/bridged")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Power_Protection")
 			(part "SRV05-4")
 			(description "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6")
@@ -5256,6 +5346,10 @@
 		(library
 			(logical "Device")
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Jumper")
+			(uri "${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym")
 		)
 		(library
 			(logical "Power_Protection")
@@ -6689,6 +6783,28 @@
 		)
 		(net
 			(code "70")
+			(name "unconnected-(JP1-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "JP1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(JP1-B-Pad2)")
+			(class "Default")
+			(node
+				(ref "JP1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "72")
 			(name "unconnected-(U1B-P0.06-Pad14)")
 			(class "Default")
 			(node
@@ -6699,7 +6815,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "73")
 			(name "unconnected-(U1B-P0.08-Pad16)")
 			(class "Default")
 			(node
@@ -6710,7 +6826,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "74")
 			(name "unconnected-(U1B-P0.09{slash}NFC1-Pad41)")
 			(class "Default")
 			(node
@@ -6721,7 +6837,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "75")
 			(name "unconnected-(U1B-P0.10{slash}NFC2-Pad43)")
 			(class "Default")
 			(node
@@ -6732,7 +6848,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "76")
 			(name "unconnected-(U1B-P0.13-Pad33)")
 			(class "Default")
 			(node
@@ -6743,7 +6859,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "77")
 			(name "unconnected-(U1B-P0.15-Pad28)")
 			(class "Default")
 			(node
@@ -6754,7 +6870,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "78")
 			(name "unconnected-(U1B-P0.17-Pad30)")
 			(class "Default")
 			(node
@@ -6765,7 +6881,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "79")
 			(name "unconnected-(U1B-P0.20-Pad32)")
 			(class "Default")
 			(node
@@ -6776,7 +6892,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "80")
 			(name "unconnected-(U1B-P0.22-Pad34)")
 			(class "Default")
 			(node
@@ -6787,7 +6903,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "81")
 			(name "unconnected-(U1B-P0.24-Pad35)")
 			(class "Default")
 			(node
@@ -6798,7 +6914,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "82")
 			(name "unconnected-(U1B-P0.26-Pad12)")
 			(class "Default")
 			(node
@@ -6809,7 +6925,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "83")
 			(name "unconnected-(U1C-P1.09-Pad17)")
 			(class "Default")
 			(node
@@ -6820,7 +6936,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "84")
 			(name "unconnected-(U3-IO2-Pad3)")
 			(class "Default")
 			(node
@@ -6831,7 +6947,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "85")
 			(name "unconnected-(U3-IO3-Pad4)")
 			(class "Default")
 			(node
@@ -6842,7 +6958,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "86")
 			(name "unconnected-(U4A-GPIO2-Pad9)")
 			(class "Default")
 			(node
@@ -6853,7 +6969,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "87")
 			(name "unconnected-(U4A-GPIO3-Pad10)")
 			(class "Default")
 			(node
@@ -6864,7 +6980,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "88")
 			(name "unconnected-(U4A-GPIO4-Pad11)")
 			(class "Default")
 			(node

@@ -1989,7 +1989,7 @@
 		(uuid "06422a5d-5654-4667-bd86-d8f0004c3164")
 	)
 	(bus_entry
-		(at 195.58 88.9)
+		(at 198.12 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1998,7 +1998,7 @@
 		(uuid "221ec465-e60a-4380-aacb-b4ebef544213")
 	)
 	(bus_entry
-		(at 195.58 91.44)
+		(at 198.12 91.44)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2061,7 +2061,7 @@
 		(uuid "8181de07-5a9a-4698-9b00-7af7d39e4768")
 	)
 	(bus_entry
-		(at 195.58 83.82)
+		(at 198.12 83.82)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2088,7 +2088,7 @@
 		(uuid "9320fbc9-a417-42e9-b86f-ed5a0891b1a2")
 	)
 	(bus_entry
-		(at 195.58 78.74)
+		(at 198.12 78.74)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2106,7 +2106,7 @@
 		(uuid "be689b6e-f992-42ed-89c5-fdce622849b7")
 	)
 	(bus_entry
-		(at 195.58 93.98)
+		(at 198.12 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2124,7 +2124,7 @@
 		(uuid "c3c1122a-ed25-4adb-a9b2-a44f7a667396")
 	)
 	(bus_entry
-		(at 195.58 81.28)
+		(at 198.12 81.28)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2142,7 +2142,7 @@
 		(uuid "d0f636d1-04a7-457f-9761-d551239b7d54")
 	)
 	(bus_entry
-		(at 195.58 86.36)
+		(at 198.12 86.36)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2172,7 +2172,7 @@
 	)
 	(bus
 		(pts
-			(xy 195.58 93.98) (xy 195.58 76.2)
+			(xy 198.12 93.98) (xy 198.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 201.93 91.44)
+			(xy 200.66 91.44) (xy 204.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 93.98) (xy 201.93 93.98)
+			(xy 200.66 93.98) (xy 204.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 201.93 96.52)
+			(xy 200.66 96.52) (xy 204.47 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 201.93 81.28)
+			(xy 200.66 81.28) (xy 204.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 201.93 86.36)
+			(xy 200.66 86.36) (xy 204.47 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 201.93 83.82)
+			(xy 200.66 83.82) (xy 204.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 201.93 88.9)
+			(xy 200.66 88.9) (xy 204.47 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +2974,7 @@
 	)
 	(global_label "LoRa_MISO"
 		(shape input)
-		(at 201.93 91.44 0)
+		(at 204.47 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2984,7 +2984,7 @@
 		)
 		(uuid "65a78f75-1907-4bc8-b135-aa816557a76d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0751 91.44 0)
+			(at 217.6151 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +3022,7 @@
 	)
 	(global_label "LoRa_NSS"
 		(shape input)
-		(at 201.93 81.28 0)
+		(at 204.47 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3032,7 +3032,7 @@
 		)
 		(uuid "6fcfa465-bc14-4355-ae2a-8bd5a7e1fb98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.2284 81.28 0)
+			(at 216.7684 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3046,7 +3046,7 @@
 	)
 	(global_label "LoRa_BUSY"
 		(shape input)
-		(at 201.93 96.52 0)
+		(at 204.47 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3056,7 +3056,7 @@
 		)
 		(uuid "71b78bb6-6761-4fe9-894e-36db6d16a5d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.3775 96.52 0)
+			(at 217.9175 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3142,7 +3142,7 @@
 	)
 	(global_label "LoRa_SCK"
 		(shape input)
-		(at 201.93 86.36 0)
+		(at 204.47 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3152,7 +3152,7 @@
 		)
 		(uuid "86977d37-1a38-4c46-8243-bab5cc4ee7a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.2284 86.36 0)
+			(at 216.7684 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +3166,7 @@
 	)
 	(global_label "LoRa_RST"
 		(shape input)
-		(at 201.93 83.82 0)
+		(at 204.47 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3176,7 +3176,7 @@
 		)
 		(uuid "8bc0ac2c-4fea-4d6c-a546-28384d346f4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.926 83.82 0)
+			(at 216.466 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3190,7 @@
 	)
 	(global_label "LoRa_SW"
 		(shape input)
-		(at 201.93 93.98 0)
+		(at 204.47 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3200,7 +3200,7 @@
 		)
 		(uuid "8de2e5de-04b8-496c-b3ff-84c6d69f1619")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.1398 93.98 0)
+			(at 215.6798 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3214,7 @@
 	)
 	(global_label "LoRa_MOSI"
 		(shape input)
-		(at 201.93 88.9 0)
+		(at 204.47 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3224,7 +3224,7 @@
 		)
 		(uuid "97b2644d-e4a0-47b6-9060-c490bb03bcff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0751 88.9 0)
+			(at 217.6151 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +3640,7 @@
 	)
 	(hierarchical_label "{LoRa_BUS}"
 		(shape input)
-		(at 195.58 76.2 90)
+		(at 198.12 76.2 90)
 		(effects
 			(font
 				(size 1.27 1.27)

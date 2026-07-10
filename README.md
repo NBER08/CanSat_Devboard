@@ -5,8 +5,8 @@
 <h1 align="center">CanSat Devboard</h1>
 
 <p align="center" width="100%">
-  <a href="https://github.com/NBER08/CanSat_Devboard/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="https://github.com/NBER08/CanSat_Devboard/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
