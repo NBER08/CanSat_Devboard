@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-vv31eacb/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-w1o8hwya/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -17,7 +17,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "c7af3b2")
+			(name "GIT_HASH_PCB") "1943a67")
 		(textvar
 			(name "GIT_HASH_SCH") "4dd37a5")
 		(textvar
@@ -691,8 +691,6 @@
 			(description "Generic connector, single row, 01x04, script generated")
 			(fields
 				(field
-					(name "KiLib_Generator") "connector/pin_header_socket")
-				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -704,10 +702,6 @@
 				(lib "Connector")
 				(part "Conn_01x04_Pin")
 				(description "Generic connector, single row, 01x04, script generated")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "connector/pin_header_socket")
 			)
 			(property
 				(name "Sheetname")
@@ -756,8 +750,6 @@
 			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "KiLib_Generator") "connector/pin_header_socket")
-				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -770,10 +762,6 @@
 				(lib "Connector_Generic")
 				(part "Conn_02x03_Odd_Even")
 				(description "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "connector/pin_header_socket")
 			)
 			(property
 				(name "Sheetname")
@@ -829,8 +817,6 @@
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "KiLib_Generator") "connector/pin_header_socket")
-				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -842,10 +828,6 @@
 				(lib "Connector")
 				(part "Conn_01x02_Pin")
 				(description "Generic connector, single row, 01x02, script generated")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "connector/pin_header_socket")
 			)
 			(property
 				(name "Sheetname")
@@ -889,8 +871,6 @@
 			(description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "KiLib_Generator") "connector/pin_header_socket")
-				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -902,10 +882,6 @@
 				(lib "Connector_Generic")
 				(part "Conn_02x07_Odd_Even")
 				(description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "connector/pin_header_socket")
 			)
 			(property
 				(name "Sheetname")
@@ -985,8 +961,6 @@
 			(description "VLS201610CX-100M-1")
 			(fields
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "Inductor_SMD:L_1210_3225Metric")
 				(field
 					(name "Datasheet")
@@ -998,10 +972,6 @@
 				(lib "Device")
 				(part "L_Small")
 				(description "Inductor, small symbol")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2644,8 +2614,6 @@
 			(description "Generic connector, single row, 01x03, script generated")
 			(fields
 				(field
-					(name "KiLib_Generator") "connector/JST")
-				(field
 					(name "Footprint") "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -2657,10 +2625,6 @@
 				(lib "Connector")
 				(part "Conn_01x03_Pin")
 				(description "Generic connector, single row, 01x03, script generated")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "connector/JST")
 			)
 			(property
 				(name "Sheetname")
@@ -2707,8 +2671,6 @@
 			(description "Inductor, small symbol")
 			(fields
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "Inductor_SMD:L_1812_4532Metric")
 				(field
 					(name "Datasheet")
@@ -2720,10 +2682,6 @@
 				(lib "Device")
 				(part "L_Small")
 				(description "Inductor, small symbol")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2767,8 +2725,6 @@
 			(description "Inductor, small symbol")
 			(fields
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "Inductor_SMD:L_1812_4532Metric")
 				(field
 					(name "Datasheet")
@@ -2780,10 +2736,6 @@
 				(lib "Device")
 				(part "L_Small")
 				(description "Inductor, small symbol")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5574,8 +5526,8 @@
 			)
 			(node
 				(ref "U3")
-				(pin "6")
-				(pinfunction "IO4_6")
+				(pin "3")
+				(pinfunction "IO2_3")
 				(pintype "passive")
 			)
 		)
@@ -5718,8 +5670,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "36")
-				(pinfunction "P1.00_36")
+				(pin "33")
+				(pinfunction "P0.13_33")
 				(pintype "bidirectional")
 			)
 		)
@@ -6057,8 +6009,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "42")
-				(pinfunction "P1.06_42")
+				(pin "43")
+				(pinfunction "P0.10/NFC2_43")
 				(pintype "bidirectional")
 			)
 		)
@@ -6079,8 +6031,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "38")
-				(pinfunction "P1.02_38")
+				(pin "35")
+				(pinfunction "P0.24_35")
 				(pintype "bidirectional")
 			)
 		)
@@ -6395,8 +6347,8 @@
 			)
 			(node
 				(ref "U1")
-				(pin "40")
-				(pinfunction "P1.04_40")
+				(pin "41")
+				(pinfunction "P0.09/NFC1_41")
 				(pintype "bidirectional")
 			)
 		)
@@ -7040,106 +6992,106 @@
 				(ref "U1")
 				(pin "16")
 				(pinfunction "P0.08_16")
-				(pintype "bidirectional+no_connect")
+				(pintype "bidirectional")
 			)
 		)
 		(net
 			(code "82")
-			(name "unconnected-(U1B-P0.09{slash}NFC1-Pad41)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "41")
-				(pinfunction "P0.09/NFC1_41")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "83")
-			(name "unconnected-(U1B-P0.10{slash}NFC2-Pad43)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "43")
-				(pinfunction "P0.10/NFC2_43")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "84")
-			(name "unconnected-(U1B-P0.13-Pad33)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "33")
-				(pinfunction "P0.13_33")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "85")
 			(name "unconnected-(U1B-P0.15-Pad28)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "28")
 				(pinfunction "P0.15_28")
-				(pintype "bidirectional+no_connect")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "86")
+			(code "83")
 			(name "unconnected-(U1B-P0.17-Pad30)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "30")
 				(pinfunction "P0.17_30")
-				(pintype "bidirectional+no_connect")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "87")
+			(code "84")
 			(name "unconnected-(U1B-P0.20-Pad32)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "32")
 				(pinfunction "P0.20_32")
-				(pintype "bidirectional+no_connect")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "88")
+			(code "85")
 			(name "unconnected-(U1B-P0.22-Pad34)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "34")
 				(pinfunction "P0.22_34")
-				(pintype "bidirectional+no_connect")
+				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "89")
-			(name "unconnected-(U1B-P0.24-Pad35)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "35")
-				(pinfunction "P0.24_35")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "90")
+			(code "86")
 			(name "unconnected-(U1B-P0.26-Pad12)")
 			(class "Default")
 			(node
 				(ref "U1")
 				(pin "12")
 				(pinfunction "P0.26_12")
-				(pintype "bidirectional+no_connect")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(U1C-P1.00-Pad36)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "P1.00_36")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U1C-P1.02-Pad38)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "P1.02_38")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U1C-P1.04-Pad40)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "40")
+				(pinfunction "P1.04_40")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(U1C-P1.06-Pad42)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "42")
+				(pinfunction "P1.06_42")
+				(pintype "bidirectional")
 			)
 		)
 		(net
@@ -7155,23 +7107,23 @@
 		)
 		(net
 			(code "92")
-			(name "unconnected-(U3-IO2-Pad3)")
-			(class "Default")
-			(node
-				(ref "U3")
-				(pin "3")
-				(pinfunction "IO2_3")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "93")
 			(name "unconnected-(U3-IO3-Pad4)")
 			(class "Default")
 			(node
 				(ref "U3")
 				(pin "4")
 				(pinfunction "IO3_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(U3-IO4-Pad6)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "IO4_6")
 				(pintype "passive+no_connect")
 			)
 		)
