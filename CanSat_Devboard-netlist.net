@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-mq4b0bfn/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-gkazyxx6/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -17,7 +17,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "905e110")
+			(name "GIT_HASH_PCB") "d468186")
 		(textvar
 			(name "GIT_HASH_SCH") "4dd37a5")
 		(textvar
