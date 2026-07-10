@@ -1959,8 +1959,8 @@
 		(uuid "c26ee065-b7de-49cc-8181-04f8cf5e3f1d")
 	)
 	(no_connect
-		(at 172.72 102.87)
-		(uuid "87639d00-b13b-44a2-b302-996484cddc54")
+		(at 198.12 102.87)
+		(uuid "192ef716-b5be-42e3-8efd-a5cb960381a1")
 	)
 	(no_connect
 		(at 129.54 109.22)
@@ -2284,12 +2284,12 @@
 	)
 	(hierarchical_label "D-"
 		(shape input)
-		(at 198.12 102.87 0)
+		(at 172.72 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dd30437f-8451-4fa7-8d64-9c64587f3509")
 	)

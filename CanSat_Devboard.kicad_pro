@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1,
+          "via_gap": 1.524,
+          "width": 0.285
         }
       ],
       "drc_exclusions": [],
@@ -217,6 +222,7 @@
         0.15,
         0.2,
         0.25,
+        0.285,
         0.3,
         0.35,
         0.4,
@@ -252,14 +258,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.55,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         },
         {
           "diameter": 0.7,
@@ -1075,7 +1073,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "L1-6,SW1-6,FB1-2,C1-26,U1-6,Y1-2,#PWR1-92,D1-6,NT1-4,J1-8,IC1-2,BT1-2,R1-20,JP1,#FLG1-8,TP1-10",
+    "used_designators": "R1-20,BT1-2,TP1-10,JP1,#FLG1-8,SW1-6,IC1-2,NT1-4,L1-6,FB1-2,Y1-2,#PWR1-92,C1-26,D1-6,U1-6,J1-8",
     "variants": []
   },
   "sheets": [
