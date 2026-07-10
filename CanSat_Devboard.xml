@@ -1204,12 +1204,36 @@
         </unit>
       </units>
     </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Bridged</value>
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/Project Architecture/Power/" tstamps="/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf/"/>
+      <tstamps>6e2ae13e-b298-4911-9ac7-b72cb7fed257</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="L4">
       <value>2u2</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_1812_4532Metric</footprint>
       <description>Inductor, small symbol</description>
       <fields>
-        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</field>
+        <field name="Footprint">Inductor_SMD:L_1812_4532Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Inductor, small symbol</field>
       </fields>
@@ -1231,10 +1255,10 @@
     </comp>
     <comp ref="L5">
       <value>2u2</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</footprint>
+      <footprint>Inductor_SMD:L_1812_4532Metric</footprint>
       <description>Inductor, small symbol</description>
       <fields>
-        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder</field>
+        <field name="Footprint">Inductor_SMD:L_1812_4532Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Inductor, small symbol</field>
       </fields>
@@ -1256,10 +1280,10 @@
     </comp>
     <comp ref="NT1">
       <value>NetTie_2</value>
-      <footprint>NetTie:NetTie-2_SMD_Pad2.0mm</footprint>
+      <footprint>Project_Components:Net_tie_1mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
-        <field name="Footprint">NetTie:NetTie-2_SMD_Pad2.0mm</field>
+        <field name="Footprint">Project_Components:Net_tie_1mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
@@ -1282,10 +1306,10 @@
     </comp>
     <comp ref="NT2">
       <value>NetTie_2</value>
-      <footprint>NetTie:NetTie-2_SMD_Pad2.0mm</footprint>
+      <footprint>Project_Components:Net_tie_1mm</footprint>
       <description>Net tie, 2 pins</description>
       <fields>
-        <field name="Footprint">NetTie:NetTie-2_SMD_Pad2.0mm</field>
+        <field name="Footprint">Project_Components:Net_tie_1mm</field>
         <field name="Datasheet"/>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
@@ -1961,6 +1985,25 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Power_Protection" part="SRV05-4">
       <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
       <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
@@ -2213,6 +2256,9 @@
     </library>
     <library logical="Device">
       <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym</uri>
     </library>
     <library logical="Power_Protection">
       <uri>${KICAD10_SYMBOL_DIR}/Power_Protection.kicad_sym</uri>
@@ -2543,55 +2589,61 @@
     <net code="69" name="unconnected-(J5-VSS-Pad6)" class="Default">
       <node ref="J5" pin="6" pinfunction="VSS_6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U1B-P0.06-Pad14)" class="Default">
+    <net code="70" name="unconnected-(JP1-A-Pad1)" class="Default">
+      <node ref="JP1" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(JP1-B-Pad2)" class="Default">
+      <node ref="JP1" pin="2" pinfunction="B_2" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(U1B-P0.06-Pad14)" class="Default">
       <node ref="U1" pin="14" pinfunction="P0.06_14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U1B-P0.08-Pad16)" class="Default">
+    <net code="73" name="unconnected-(U1B-P0.08-Pad16)" class="Default">
       <node ref="U1" pin="16" pinfunction="P0.08_16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U1B-P0.09/NFC1-Pad41)" class="Default">
+    <net code="74" name="unconnected-(U1B-P0.09/NFC1-Pad41)" class="Default">
       <node ref="U1" pin="41" pinfunction="P0.09/NFC1_41" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U1B-P0.10/NFC2-Pad43)" class="Default">
+    <net code="75" name="unconnected-(U1B-P0.10/NFC2-Pad43)" class="Default">
       <node ref="U1" pin="43" pinfunction="P0.10/NFC2_43" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U1B-P0.13-Pad33)" class="Default">
+    <net code="76" name="unconnected-(U1B-P0.13-Pad33)" class="Default">
       <node ref="U1" pin="33" pinfunction="P0.13_33" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U1B-P0.15-Pad28)" class="Default">
+    <net code="77" name="unconnected-(U1B-P0.15-Pad28)" class="Default">
       <node ref="U1" pin="28" pinfunction="P0.15_28" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U1B-P0.17-Pad30)" class="Default">
+    <net code="78" name="unconnected-(U1B-P0.17-Pad30)" class="Default">
       <node ref="U1" pin="30" pinfunction="P0.17_30" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U1B-P0.20-Pad32)" class="Default">
+    <net code="79" name="unconnected-(U1B-P0.20-Pad32)" class="Default">
       <node ref="U1" pin="32" pinfunction="P0.20_32" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U1B-P0.22-Pad34)" class="Default">
+    <net code="80" name="unconnected-(U1B-P0.22-Pad34)" class="Default">
       <node ref="U1" pin="34" pinfunction="P0.22_34" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U1B-P0.24-Pad35)" class="Default">
+    <net code="81" name="unconnected-(U1B-P0.24-Pad35)" class="Default">
       <node ref="U1" pin="35" pinfunction="P0.24_35" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U1B-P0.26-Pad12)" class="Default">
+    <net code="82" name="unconnected-(U1B-P0.26-Pad12)" class="Default">
       <node ref="U1" pin="12" pinfunction="P0.26_12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U1C-P1.09-Pad17)" class="Default">
+    <net code="83" name="unconnected-(U1C-P1.09-Pad17)" class="Default">
       <node ref="U1" pin="17" pinfunction="P1.09_17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U3-IO2-Pad3)" class="Default">
+    <net code="84" name="unconnected-(U3-IO2-Pad3)" class="Default">
       <node ref="U3" pin="3" pinfunction="IO2_3" pintype="passive+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U3-IO3-Pad4)" class="Default">
+    <net code="85" name="unconnected-(U3-IO3-Pad4)" class="Default">
       <node ref="U3" pin="4" pinfunction="IO3_4" pintype="passive+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U4A-GPIO2-Pad9)" class="Default">
+    <net code="86" name="unconnected-(U4A-GPIO2-Pad9)" class="Default">
       <node ref="U4" pin="9" pinfunction="GPIO2_9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U4A-GPIO3-Pad10)" class="Default">
+    <net code="87" name="unconnected-(U4A-GPIO3-Pad10)" class="Default">
       <node ref="U4" pin="10" pinfunction="GPIO3_10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U4A-GPIO4-Pad11)" class="Default">
+    <net code="88" name="unconnected-(U4A-GPIO4-Pad11)" class="Default">
       <node ref="U4" pin="11" pinfunction="GPIO4_11" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
