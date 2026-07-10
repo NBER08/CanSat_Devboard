@@ -729,7 +729,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x07_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -749,7 +749,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x07_Counter_Clockwise"
+			(property "Value" "Conn_02x07_Odd_Even"
 				(at 1.27 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -781,7 +781,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -814,7 +814,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x07_Counter_Clockwise_1_1"
+			(symbol "Conn_02x07_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 8.89)
 					(end 3.81 -8.89)
@@ -999,7 +999,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1017,7 +1017,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1035,7 +1035,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1053,7 +1053,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1071,7 +1071,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1089,7 +1089,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1107,7 +1107,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1125,7 +1125,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1161,7 +1161,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1179,7 +1179,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1197,7 +1197,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1215,7 +1215,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -4638,6 +4638,30 @@
 			)
 		)
 	)
+	(global_label "RMF"
+		(shape input)
+		(at 68.58 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a75ddca8-d145-4063-b37f-03aee47fc1e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3752 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BM_INT"
 		(shape input)
 		(at 240.03 49.53 0)
@@ -4683,6 +4707,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "RMF"
+		(shape input)
+		(at 250.19 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b363016f-ba00-4c5c-9595-f56e31f8b62f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3948 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5005,17 +5053,6 @@
 		)
 		(uuid "9b04c0a0-b65d-4b32-97ba-6e07da9c2611")
 	)
-	(hierarchical_label "RMF"
-		(shape input)
-		(at 68.58 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9cdad63e-42f1-40f1-b71e-3a87490e168e")
-	)
 	(hierarchical_label "{LoRa_BUS}"
 		(shape input)
 		(at 198.12 76.2 90)
@@ -5026,17 +5063,6 @@
 			(justify left)
 		)
 		(uuid "a933aca0-7108-480e-9849-f110f1ae361f")
-	)
-	(hierarchical_label "RMF"
-		(shape input)
-		(at 250.19 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce5155ed-ae78-4150-9d9b-15470dba356d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5655,6 +5681,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
+		(at 135.89 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c47cd52-23dc-4a04-b9d4-be71edee8ef8")
+		(property "Reference" "J8"
+			(at 137.16 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPIO"
+			(at 137.16 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
+			(at 135.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "0ad5d22e-d267-482c-bc88-8fdb9b46130c")
+		)
+		(pin "13"
+			(uuid "5f04fef8-3661-4f8c-987d-ee075348ec1b")
+		)
+		(pin "12"
+			(uuid "857781f5-5a06-4152-8b4f-f437c759c7fa")
+		)
+		(pin "11"
+			(uuid "7cba4b3f-af6b-483c-828a-edb7da1852a0")
+		)
+		(pin "10"
+			(uuid "b029a27f-dbf5-432e-ac7b-a440d5483f9c")
+		)
+		(pin "1"
+			(uuid "2e64760f-73ea-4d39-ba43-09175f61bc98")
+		)
+		(pin "3"
+			(uuid "65ce8e0b-bc39-44e5-bd99-624ceaccdb8e")
+		)
+		(pin "2"
+			(uuid "e907f98a-b214-4c67-a999-6bca9e281889")
+		)
+		(pin "4"
+			(uuid "8bfc404c-b215-4ffc-b99b-c77ca770c725")
+		)
+		(pin "6"
+			(uuid "45c72f5b-456f-4214-83d9-6db1f8d923ab")
+		)
+		(pin "7"
+			(uuid "f8cd9ad1-f728-4775-9ced-6362f47827f7")
+		)
+		(pin "5"
+			(uuid "c69143c8-35a4-4253-813b-b4f4ab7ac44f")
+		)
+		(pin "9"
+			(uuid "e987388e-2e19-41ed-8a87-9dab228864da")
+		)
+		(pin "8"
+			(uuid "014b6821-05ab-4915-ae49-e9a1d4e207d3")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 256.54 100.33 90)
 		(unit 1)
@@ -5844,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FTC201610D"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 73.66 127 0)
 			(hide yes)
 			(show_name no)
@@ -7145,7 +7287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 191.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -7352,122 +7494,6 @@
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x07_Counter_Clockwise")
-		(at 135.89 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d39d2bac-e651-43ee-99c2-031f4f275226")
-		(property "Reference" "J2"
-			(at 137.16 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x07_Counter_Clockwise"
-			(at 137.16 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df576329-9bde-439c-b669-b8109341d197")
-		)
-		(pin "12"
-			(uuid "84a76eef-6535-4957-9728-3a304f712f9a")
-		)
-		(pin "2"
-			(uuid "7b3e2735-25f5-43f6-9a02-3e14f675a75c")
-		)
-		(pin "6"
-			(uuid "1e0998d2-74a5-4405-99e1-a12f31066588")
-		)
-		(pin "7"
-			(uuid "5a50d14b-417a-4570-9282-6c37159c12fb")
-		)
-		(pin "14"
-			(uuid "e6511968-4579-4b41-b3e4-7c19c0f0264e")
-		)
-		(pin "3"
-			(uuid "06c7fb3a-cd9f-4327-af4a-08e5cb619da7")
-		)
-		(pin "8"
-			(uuid "f2c33795-719e-4428-b699-fa73631644d5")
-		)
-		(pin "9"
-			(uuid "e1ece9e4-c9a5-4635-9772-40603b2842ef")
-		)
-		(pin "5"
-			(uuid "1ab865bd-f14f-48ec-8428-3e8e8fd37f2d")
-		)
-		(pin "13"
-			(uuid "839a8963-962e-465a-8627-76f8fbf46687")
-		)
-		(pin "11"
-			(uuid "873b3e58-c97c-4818-9288-670295b58b75")
-		)
-		(pin "4"
-			(uuid "d639b0b6-568f-4348-b328-27aa5c8e903e")
-		)
-		(pin "10"
-			(uuid "90574e28-49c2-45fc-b470-93d880c845ee")
-		)
-		(instances
-			(project "CanSat_Devboard"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5"
-					(reference "J2")
 					(unit 1)
 				)
 			)
