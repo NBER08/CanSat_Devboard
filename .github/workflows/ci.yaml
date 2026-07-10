@@ -166,6 +166,15 @@ jobs:
           config: ${{ env.kibot_config }}
           additional_args: --log kibot_run_notes.log notes
 
+      - name: Generate notes (KiCad 10)
+        if: ${{ env.kicad_version == '10' && env.kibot_variant != 'DRAFT' }}
+        uses: INTI-CMNB/KiBot@v2_dk10
+        with:
+          skip: all
+          variant: ${{ env.kibot_variant }}
+          config: ${{ env.kibot_config }}
+          additional_args: --log kibot_run_notes.log notes
+
       # Generate README only (only for DRAFT variant)
       - name: Generate README only (KiCad 8)
         if: ${{ env.kicad_version == '8' && env.kibot_variant == 'DRAFT' }}
@@ -185,6 +194,16 @@ jobs:
           config: ${{ env.kibot_config }}
           additional_args: --log kibot_run_readme.log md_readme
 
+
+      - name: Generate README only (KiCad 10)
+        if: ${{ env.kicad_version == '10' && env.kibot_variant == 'DRAFT' }}
+        uses: INTI-CMNB/KiBot@v2_dk10
+        with:
+          skip: draw_fancy_stackup,set_text_variables,erc,drc
+          variant: ${{ env.kibot_variant }}
+          config: ${{ env.kibot_config }}
+          additional_args: --log kibot_run_readme.log md_readme
+
       # Generate outputs
       - name: Generate outputs (KiCad 8)
         if: ${{ env.kicad_version == '8' }}
@@ -198,6 +217,15 @@ jobs:
       - name: Generate outputs (KiCad 9)
         if: ${{ env.kicad_version == '9' }}
         uses: INTI-CMNB/KiBot@v2_dk9
+        with:
+          additional_args: ${{ env.additional_args }}
+          variant: ${{ env.kibot_variant }}
+          config: ${{ env.kibot_config }}
+          cache3D: YES
+
+      - name: Generate outputs (KiCad 10)
+        if: ${{ env.kicad_version == '10' }}
+        uses: INTI-CMNB/KiBot@v2_dk10
         with:
           additional_args: ${{ env.additional_args }}
           variant: ${{ env.kibot_variant }}

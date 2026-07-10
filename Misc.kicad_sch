@@ -583,6 +583,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1001,6 +1225,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VAA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VAA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VAA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VAA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VAA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -1169,7 +1532,7 @@
 		(uuid "e381dbfd-e8a8-441c-a10d-31ab0a78aca6")
 	)
 	(bus_entry
-		(at 101.6 96.52)
+		(at 210.82 72.39)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1178,7 +1541,7 @@
 		(uuid "1c9baf1c-aba0-444b-97aa-932d3b621f1d")
 	)
 	(bus_entry
-		(at 101.6 104.14)
+		(at 210.82 80.01)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1187,7 +1550,7 @@
 		(uuid "25b3f5f3-e4f4-4116-af40-117ae6ecedc2")
 	)
 	(bus_entry
-		(at 101.6 101.6)
+		(at 210.82 77.47)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1196,7 +1559,7 @@
 		(uuid "7c06a14b-2378-4943-9bc5-dd4ea2eb8087")
 	)
 	(bus_entry
-		(at 101.6 99.06)
+		(at 210.82 74.93)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1206,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 106.68) (xy 105.41 106.68)
+			(xy 213.36 82.55) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 105.41 101.6)
+			(xy 213.36 77.47) (xy 214.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 105.41 99.06)
+			(xy 213.36 74.93) (xy 214.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 104.14) (xy 105.41 104.14)
+			(xy 213.36 80.01) (xy 214.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1609,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 91.44) (xy 101.6 104.14)
+			(xy 210.82 67.31) (xy 210.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1619,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 105.41 104.14 0)
+		(at 214.63 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1266,7 +1629,7 @@
 		)
 		(uuid "01df5814-b0de-44db-9102-b7813836e045")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.2614 104.14 0)
+			(at 223.4814 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1280,7 +1643,7 @@
 	)
 	(global_label "SWDCLK"
 		(shape input)
-		(at 105.41 106.68 0)
+		(at 214.63 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1290,7 +1653,7 @@
 		)
 		(uuid "0c2f6bb2-1b29-40ba-871d-e383d8059aa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8942 106.68 0)
+			(at 225.1142 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1328,7 +1691,7 @@
 	)
 	(global_label "SW0"
 		(shape input)
-		(at 105.41 99.06 0)
+		(at 214.63 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1338,7 +1701,7 @@
 		)
 		(uuid "25fece6b-0eec-450e-b8e8-9cbf54de57bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2656 99.06 0)
+			(at 221.4856 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,7 +1811,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 105.41 101.6 0)
+		(at 214.63 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1458,7 +1821,7 @@
 		)
 		(uuid "ec108b27-6e30-4eb0-bc87-8a415eaa5903")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.8423 101.6 0)
+			(at 221.0623 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1472,7 +1835,7 @@
 	)
 	(hierarchical_label "{Prog_BUS}"
 		(shape input)
-		(at 101.6 91.44 90)
+		(at 210.82 67.31 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1493,6 +1856,85 @@
 		(uuid "fe38998b-74e4-4fde-88cd-e331b9afbbdf")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 222.25 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0911bec4-53e1-493a-8664-e3fdd4ca447e")
+		(property "Reference" "TP4"
+			(at 224.79 121.1579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VLDO"
+			(at 224.79 123.6979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 222.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e08c5b0d-3640-47c6-8898-202206017b47")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 59.69 90)
 		(unit 1)
@@ -1503,7 +1945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1548d9d1-c790-4217-9579-195cf8efb847")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR010"
 			(at 72.39 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1564,7 +2006,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR045")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -1581,7 +2023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d574ba7-2fc0-484a-8626-3503808eb57e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR016"
 			(at 46.99 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1642,7 +2084,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR043")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1743,7 +2185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83fbd18a-635a-42e6-be1f-74e254938fc9")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 60.96 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +2247,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1813,7 +2255,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 193.04 85.09 180)
+		(at 210.82 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1823,8 +2265,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dab6a55-ce62-4e87-aaea-1c02183e1982")
-		(property "Reference" "#PWR047"
-			(at 193.04 81.28 0)
+		(property "Reference" "#PWR014"
+			(at 210.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,7 +2277,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 193.04 90.17 0)
+			(at 210.82 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1845,7 +2287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 85.09 0)
+			(at 210.82 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +2298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 85.09 0)
+			(at 210.82 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1867,7 +2309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 193.04 85.09 0)
+			(at 210.82 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,7 +2325,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR047")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1891,7 +2333,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 85.09 180)
+		(at 210.82 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1901,8 +2343,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1da2a3f-dd80-4bb9-922d-b45deb2d0d07")
-		(property "Reference" "#PWR030"
-			(at 168.91 81.28 0)
+		(property "Reference" "#PWR012"
+			(at 210.82 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1913,7 +2355,7 @@
 			)
 		)
 		(property "Value" "VMCU"
-			(at 168.91 90.17 0)
+			(at 210.82 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1923,7 +2365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 85.09 0)
+			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,7 +2376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 85.09 0)
+			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1945,7 +2387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 85.09 0)
+			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1961,15 +2403,15 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR030")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 180.34 85.09 0)
+		(lib_id "power:VBUS")
+		(at 64.77 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1978,9 +2420,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac98fa7f-5aef-4932-b698-3f421ac8b565")
-		(property "Reference" "TP2"
-			(at 182.88 80.5179 0)
+		(uuid "a833cf48-a05d-4329-8461-4505a4eee540")
+		(property "Reference" "#PWR019"
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 68.58 129.5399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1990,19 +2443,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3"
-			(at 182.88 83.0579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 185.42 85.09 0)
+		(property "Footprint" ""
+			(at 64.77 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2013,7 +2455,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 85.09 0)
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c97a3a51-e9d0-4f43-9d28-a52546092d42")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 222.25 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac98fa7f-5aef-4932-b698-3f421ac8b565")
+		(property "Reference" "TP2"
+			(at 224.79 105.9179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 224.79 108.4579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 227.33 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2024,7 +2545,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 180.34 85.09 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adb6f91a-c7d2-4519-80d3-464decf1f29f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR011"
 			(at 72.39 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2120,7 +2641,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR046")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2739,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 85.09 0)
+		(at 210.82 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2229,7 +2750,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc1bc35c-04df-4958-80c2-a372dfbad2f8")
 		(property "Reference" "TP1"
-			(at 171.45 80.5179 0)
+			(at 213.36 105.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2240,7 +2761,7 @@
 			)
 		)
 		(property "Value" "VMCU"
-			(at 171.45 83.0579 0)
+			(at 213.36 108.4579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2251,7 +2772,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 173.99 85.09 0)
+			(at 215.9 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 85.09 0)
+			(at 215.9 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2794,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 168.91 85.09 0)
+			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdb5b882-675f-4550-ad2b-afaba49c0b1c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR015"
 			(at 57.15 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2368,15 +2889,15 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR042")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 85.09 0)
+		(lib_id "power:VAA")
+		(at 222.25 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2385,31 +2906,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cefccfed-236c-43b3-b570-2f5e39e00344")
-		(property "Reference" "TP3"
-			(at 195.58 80.5179 0)
+		(uuid "c012139a-5da6-4caf-8a6b-4175a985665e")
+		(property "Reference" "#PWR065"
+			(at 222.25 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "VSYS"
-			(at 195.58 83.0579 0)
+		(property "Value" "VLDO"
+			(at 222.25 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 198.12 85.09 0)
+		(property "Footprint" ""
+			(at 222.25 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,7 +2940,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 85.09 0)
+			(at 222.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 222.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c7c5c6f-0716-4280-a3c7-e0ade9438175")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cefccfed-236c-43b3-b570-2f5e39e00344")
+		(property "Reference" "TP3"
+			(at 213.36 121.1579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 213.36 123.6979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 215.9 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +3030,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 85.09 0)
+			(at 210.82 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,6 +3054,198 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 57.15 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5278f1a-41ab-4676-b01f-4b633ab5c2cc")
+		(property "Reference" "#PWR018"
+			(at 50.8 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fdc339d-98e9-4e2f-a638-d6c25b23d894")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 59.69 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea3374cf-167c-45a3-8a96-d13159243a52")
+		(property "Reference" "BT1"
+			(at 61.5315 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1S Lipo"
+			(at 61.5315 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 61.214 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.214 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 59.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f85f614b-4156-4936-bec7-19a60ff50d1e")
+		)
+		(pin "2"
+			(uuid "257a417b-1fa8-410a-8efc-3427e7eeb593")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 59.69 113.03 270)
 		(unit 1)
 		(body_style 1)
@@ -2464,7 +3255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaaade2a-38ab-4549-85de-41d4990db012")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR017"
 			(at 53.34 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2525,7 +3316,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR044")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2543,7 +3334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2293b6c-ee7b-4249-bda9-720c491decf0")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 60.96 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,7 +3396,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2613,7 +3404,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 180.34 85.09 180)
+		(at 222.25 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2623,8 +3414,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "face2a70-4be6-4e67-9c44-11f5d8667c51")
-		(property "Reference" "#PWR034"
-			(at 180.34 81.28 0)
+		(property "Reference" "#PWR013"
+			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +3426,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 180.34 90.17 0)
+			(at 222.25 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2645,7 +3436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 85.09 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +3447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 85.09 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2667,7 +3458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 85.09 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +3474,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/018262e7-802c-4bdf-a206-c30cacd206c9"
-					(reference "#PWR034")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

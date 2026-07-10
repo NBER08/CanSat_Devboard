@@ -508,7 +508,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -916,7 +916,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "Manufacturing/Assembly/KDT_Hierarchical_KiBot-bom-k8.csv",
     "bom_fmt_presets": [],
@@ -1008,6 +1008,10 @@
       "sort_field": "Footprint"
     },
     "bus_aliases": {
+      "CC_BUS": [
+        "CC1",
+        "CC2"
+      ],
       "LoRa_BUS": [
         "LoRa_BUSY",
         "LoRa_SW",
@@ -1092,16 +1096,8 @@
       "OBC"
     ],
     [
-      "9933681f-ea4a-4682-bf5d-617d071c4427",
-      "USB"
-    ],
-    [
       "97c73fca-b393-43be-ae9c-ea90e4dfaddd",
       "LoRa"
-    ],
-    [
-      "dd3743eb-d6f5-4249-8948-a675f2376adf",
-      "Power"
     ],
     [
       "54e2bf4d-ca9c-42ad-9a5b-ef616f7e9bcc",
@@ -1112,35 +1108,43 @@
       "Misc"
     ],
     [
+      "dd3743eb-d6f5-4249-8948-a675f2376adf",
+      "Power"
+    ],
+    [
+      "9933681f-ea4a-4682-bf5d-617d071c4427",
+      "USB"
+    ],
+    [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
       "Revision History"
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
+    "ASSEMBLY_NOTES": "",
     "BOARD_NAME": "CanSat Devboard",
     "COMPANY": "Karpat Space Program",
     "DESIGNER": "Bertalan Nagy",
-    "FABRICATION_NOTES": "FABRICATION NOTES",
-    "GIT_HASH_PCB": "",
-    "GIT_HASH_SCH": "",
-    "GIT_URL": "https://github.com/NBER08/CanSat_Devboard",
-    "PROJECT_NAME": "CanSat devboard",
+    "FABRICATION_NOTES": "",
+    "GIT_HASH_PCB": "905e110",
+    "GIT_HASH_SCH": "4dd37a5",
+    "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
+    "PROJECT_NAME": "Cansat Devboard",
     "RELEASE_BODY_1.0.0": "",
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
-    "RELEASE_BODY_UNRELEASED": "",
-    "RELEASE_DATE": "DD-MMM-YYYY",
-    "RELEASE_DATE_NUM": "YYYY-MM-DD",
+    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_DATE": "10-Jul-2026",
+    "RELEASE_DATE_NUM": "2026-07-10",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
-    "RELEASE_TITLE_UNRELEASED": "",
-    "REVISION": "1",
+    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
+    "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "Revision history",
+    "SHEET_NAME_10": "Revision History",
     "SHEET_NAME_11": "......................................",
     "SHEET_NAME_12": "......................................",
     "SHEET_NAME_13": "......................................",
@@ -1174,12 +1178,12 @@
     "SHEET_NAME_39": "......................................",
     "SHEET_NAME_4": "OBC",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Lora",
+    "SHEET_NAME_5": "LoRa",
     "SHEET_NAME_6": "SD card",
     "SHEET_NAME_7": "Misc",
     "SHEET_NAME_8": "Power",
     "SHEET_NAME_9": "USB",
-    "VARIANT": "V1",
+    "VARIANT": "DRAFT",
     "VERSION": "V1"
   },
   "tuning_profiles": {

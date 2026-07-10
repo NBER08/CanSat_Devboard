@@ -11,6 +11,129 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1974,6 +2097,24 @@
 		(at 198.12 97.79)
 		(uuid "e7bcb99c-baa0-427e-b8f0-6accde2709bc")
 	)
+	(bus_entry
+		(at 48.26 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7260eca9-deb4-4422-abb6-68636fbef181")
+	)
+	(bus_entry
+		(at 48.26 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb2575e-9f1c-4d26-9e54-fca74bdcc14c")
+	)
 	(wire
 		(pts
 			(xy 106.68 120.65) (xy 114.3 120.65)
@@ -1983,6 +2124,16 @@
 			(type default)
 		)
 		(uuid "0281a4b2-5ed1-42e3-b66c-c585434a1bfc")
+	)
+	(wire
+		(pts
+			(xy 50.8 82.55) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bd2622-6e98-4c66-a8aa-e68f7bd5a3b8")
 	)
 	(wire
 		(pts
@@ -2023,6 +2174,16 @@
 			(type default)
 		)
 		(uuid "38fe1721-4b60-4541-95bf-384cf09851bb")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 53.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc56020-a62d-48b4-8161-d7de8c329269")
 	)
 	(wire
 		(pts
@@ -2074,6 +2235,16 @@
 		)
 		(uuid "87521f50-6de6-46ef-8411-b40249a4d05a")
 	)
+	(bus
+		(pts
+			(xy 48.26 74.93) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c087727-2841-429c-b4e2-a6f808c9d7c1")
+	)
 	(wire
 		(pts
 			(xy 114.3 120.65) (xy 114.3 119.38)
@@ -2093,6 +2264,30 @@
 			(type default)
 		)
 		(uuid "e53fc56f-3c91-4546-a8b0-18105d99deda")
+	)
+	(global_label "CC1"
+		(shape input)
+		(at 233.68 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cf81ff7-9aae-4e47-8934-fc6a463235c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 66.4247 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "CC1"
 		(shape input)
@@ -2142,6 +2337,78 @@
 			)
 		)
 	)
+	(global_label "CC2"
+		(shape input)
+		(at 53.34 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1da56a0-af1f-4092-9d8d-73fc681fbbaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.0747 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CC1"
+		(shape input)
+		(at 53.34 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db249926-434c-4d08-a7cf-410b125c9cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.0747 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CC2"
+		(shape input)
+		(at 243.84 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbe1087f-c898-44ca-b63e-c150d87b2a74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.84 66.4247 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "D+"
 		(shape input)
 		(at 172.72 97.79 180)
@@ -2163,6 +2430,17 @@
 			(justify left)
 		)
 		(uuid "7c0c7a79-bf08-43db-9388-bb3b294ef049")
+	)
+	(hierarchical_label "{CC_BUS}"
+		(shape input)
+		(at 48.26 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b34bc3c5-d783-4902-9ae5-37bc10eb3ec4")
 	)
 	(hierarchical_label "D+"
 		(shape input)
@@ -2198,7 +2476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e42d0e8-b896-4220-b51f-46b0afc5cb1f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR044"
 			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2259,7 +2537,86 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
-					(reference "#PWR036")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce6a7fc-3242-4b54-a192-a7877b315b16")
+		(property "Reference" "TP5"
+			(at 236.22 55.1179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC1"
+			(at 236.22 57.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7847c23f-7a6b-4552-9a15-6386ac00daf2")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca2cc88-6ba2-4563-a583-b11fa4c93527")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 188.5381 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,7 +2857,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1ead1d9-0030-49b1-90a6-32578143f133")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 185.42 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2580,7 +2937,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7cd91a8-5cd5-4b8c-88f6-d00f10b92d6f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR047"
 			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2660,7 +3017,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
-					(reference "#PWR033")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2678,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af93fe62-88bd-4e0c-ba62-b0f014862df6")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 114.3 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +3175,86 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
-					(reference "J1")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba9708d8-38ac-4c0b-8aa7-e42c795eafcb")
+		(property "Reference" "TP6"
+			(at 246.38 55.1179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CC2"
+			(at 246.38 57.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "492503f3-23cb-4c7a-b9c8-218bf9078d8f")
+		)
+		(instances
+			(project "CanSat_Devboard"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2836,7 +3272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e113d77b-b867-4ca4-b969-73fdc43d441b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 185.42 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2896,7 +3332,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/9933681f-ea4a-4682-bf5d-617d071c4427"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
