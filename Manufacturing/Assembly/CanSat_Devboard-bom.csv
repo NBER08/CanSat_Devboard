@@ -1,5 +1,5 @@
 Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
-1,2,BT1 BT2,1S Lipo,,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,Single-cell battery,,,
+1,1,BT1,1S Lipo,,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,Single-cell battery,,,
 2,2,C1 C2,22p,,C_0603_1608Metric,Unpolarized capacitor,,,
 3,2,C3 C15,0.1u,,C_0603_1608Metric,Unpolarized capacitor,,,
 4,2,C11 C12,1u,,C_0603_1608Metric,Unpolarized capacitor,,,
@@ -11,8 +11,8 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 10,1,FB1,LI0603G121R-10,,L_0603_1608Metric,Ferrite bead,,,
 11,1,IC1,114993390,,114993390,"RF Modules Wio-SX1262 Wireless Module (Bulk), SX1262 embedded, supports LoRa&LoRaWAN on EU868 & US915",,,
 12,1,J5,693071010811,,693071010811,"693 Series, Header for use with Micro SD Card | Wurth Electronics 693071010811",,,
-13,5,J1 J2 J4 J6 J7,I2C,,,"Generic connector, single row, 01x04, script generated Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/) USB 2.0-only 16P Type-C Receptacle connector Generic connector, single row, 01x02, script generated",,,
-14,1,J3,RMF,,PinHeader_1x02_P2.54mm_Vertical,"Generic connector, single row, 01x02, script generated",,,
+13,6,J1 J3 J4 J6 J7 J8,I2C,,PinHeader_1x04_P2.54mm_Vertical,"Generic connector, single row, 01x04, script generated Generic connector, single row, 01x03, script generated USB 2.0-only 16P Type-C Receptacle connector Generic connector, single row, 01x02, script generated Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,
+14,1,J2,SWD,,PinHeader_2x03_P2.54mm_Vertical,,,,
 15,2,R14 R15,180,,R_0603_1608Metric,"Resistor, small symbol",,,
 16,1,R13,310,,R_0603_1608Metric,"Resistor, small symbol",,,
 17,2,R11 R12,4k7,,R_0603_1608Metric,Resistor,,,

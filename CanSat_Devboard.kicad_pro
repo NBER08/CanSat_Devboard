@@ -1122,7 +1122,7 @@
     "COMPANY": "Karpat Space Program",
     "DESIGNER": "Bertalan Nagy",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "d468186",
+    "GIT_HASH_PCB": "c7af3b2",
     "GIT_HASH_SCH": "4dd37a5",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "Cansat Devboard",
