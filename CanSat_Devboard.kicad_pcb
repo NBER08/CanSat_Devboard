@@ -182,7 +182,7 @@
 	(property "COMPANY" "Karpat Space Program")
 	(property "DESIGNER" "Bertalan Nagy")
 	(property "FABRICATION_NOTES" "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				64.059 × 43.561 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.250 mm\n	MIN. HOLE (NPTH)		0.650 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.250 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.100 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
-	(property "GIT_HASH_PCB" "6330e0e")
+	(property "GIT_HASH_PCB" "9b0fd68")
 	(property "GIT_HASH_SCH" "4dd37a5")
 	(property "GIT_URL" "https://github.com/nguyen-v/KDT_Hierarchical_KiBot")
 	(property "PROJECT_NAME" "Cansat Devboard")
@@ -595,7 +595,7 @@
 			(uuid "19e0e497-a86c-47d9-9fff-05d6c892bae5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/WE-XTAL_CFPX-217.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/Custom.3dshapes/WE-XTAL_CFPX-217.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3139,15 +3139,15 @@
 			(uuid "d858f1fd-7658-4891-a87c-3638724f3d39")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/114993390.stp"
+		(model "${KIPRJMOD}/libraries/3dmodels/Custom.3dshapes/114993390.stp"
 			(offset
-				(xyz -5.800000104 -5.499999917 0.7999999999)
+				(xyz -6 -5.5 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3813,7 +3813,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/kicad-packages3d/Custom.3dshapes/E73-2G4M08S1C.step"
+		(model "${KIPRJMOD}/libraries/3dmodels/Custom.3dshapes/E73-2G4M08S1C.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4735,9 +4735,9 @@
 			(uuid "c68e948b-75cc-449c-bbae-1906ffa91a57")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/kicad-packages3d/Custom.3dshapes/693071010811.stp"
+		(model "${KIPRJMOD}/libraries/3dmodels/Custom.3dshapes/693071010811.stp"
 			(offset
-				(xyz -2 1 0)
+				(xyz -2 0.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7517,7 +7517,7 @@
 			(uuid "9df61511-502d-4261-8e01-b313705260a0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/kicad-packages3d/Custom.3dshapes/NPM1304-QEAA-R7--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/libraries/3dmodels/Custom.3dshapes/NPM1304-QEAA-R7--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
