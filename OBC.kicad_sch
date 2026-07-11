@@ -3324,10 +3324,6 @@
 		(uuid "3fb98336-fae7-4abe-8b76-12c26cf4fa3b")
 	)
 	(no_connect
-		(at 161.29 71.12)
-		(uuid "6e99fe7f-f5b2-49cb-b19f-6ac1aab4017c")
-	)
-	(no_connect
 		(at 256.54 119.38)
 		(uuid "c6b69d07-fbe7-4bd3-90ae-6ba95587a628")
 	)
@@ -4024,7 +4020,7 @@
 	)
 	(global_label "BM_RST"
 		(shape input)
-		(at 68.58 72.39 0)
+		(at 161.29 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4034,7 +4030,7 @@
 		)
 		(uuid "39df0112-5ccf-49e4-9e03-79fc3f13d585")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.7013 72.39 0)
+			(at 171.4113 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4044,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 68.58 90.17 0)
+		(at 68.58 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4058,7 +4054,7 @@
 		)
 		(uuid "3e4896be-b8f2-4f83-8238-dc9210913894")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.0728 90.17 0)
+			(at 75.0728 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4096,7 +4092,7 @@
 	)
 	(global_label "SW0"
 		(shape input)
-		(at 68.58 118.11 0)
+		(at 68.58 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4106,7 +4102,7 @@
 		)
 		(uuid "42d7ba0c-b9ab-4c6b-b3da-90d27973f7a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.4356 118.11 0)
+			(at 75.4356 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,7 +4212,7 @@
 	)
 	(global_label "LoRa_MISO"
 		(shape input)
-		(at 68.58 113.03 0)
+		(at 68.58 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4226,7 +4222,7 @@
 		)
 		(uuid "510457bc-429d-46f3-9a69-02a9889b99fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7251 113.03 0)
+			(at 81.7251 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4240,7 +4236,7 @@
 	)
 	(global_label "LoRa_NSS"
 		(shape input)
-		(at 68.58 69.85 0)
+		(at 68.58 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4250,7 +4246,7 @@
 		)
 		(uuid "62648e75-6980-4c9e-9724-df1d938f5c4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.8784 69.85 0)
+			(at 80.8784 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,7 +4356,7 @@
 	)
 	(global_label "LoRa_RST"
 		(shape input)
-		(at 161.29 73.66 0)
+		(at 68.58 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4370,7 +4366,7 @@
 		)
 		(uuid "7ade997e-2636-448a-a74b-e632bb6034e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.286 73.66 0)
+			(at 80.576 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +4596,7 @@
 	)
 	(global_label "RMF"
 		(shape input)
-		(at 68.58 115.57 0)
+		(at 68.58 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4610,7 +4606,7 @@
 		)
 		(uuid "a75ddca8-d145-4063-b37f-03aee47fc1e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.3752 115.57 0)
+			(at 75.3752 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +4692,7 @@
 	)
 	(global_label "LoRa_SCK"
 		(shape input)
-		(at 68.58 110.49 0)
+		(at 161.29 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4706,7 +4702,7 @@
 		)
 		(uuid "b37f9d99-2f4d-45f3-9fe0-24e2bf235826")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.8784 110.49 0)
+			(at 173.5884 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4744,7 +4740,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 68.58 80.01 0)
+		(at 68.58 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4754,7 +4750,7 @@
 		)
 		(uuid "d40cb092-3112-4ac4-8a79-8b3c62b60a26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.1333 80.01 0)
+			(at 75.1333 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4812,7 @@
 	)
 	(global_label "LoRa_MOSI"
 		(shape input)
-		(at 68.58 67.31 0)
+		(at 68.58 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4826,7 +4822,7 @@
 		)
 		(uuid "ef32678c-56e0-443b-b909-5676a4d588b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7251 67.31 0)
+			(at 81.7251 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,7 +4908,7 @@
 	)
 	(global_label "LoRa_SW"
 		(shape input)
-		(at 161.29 78.74 0)
+		(at 161.29 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4922,7 +4918,7 @@
 		)
 		(uuid "facf94d9-8fd4-4318-91db-b94354d5378e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.4998 78.74 0)
+			(at 172.4998 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
