@@ -1,0 +1,9 @@
+CanSat_Devboard|CanSat_Devboard.kicad_sch||CanSat_Devboard|CanSat_Devboard
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|CanSat_Devboard-Block Diagram
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|CanSat_Devboard-Project Architecture
+LoRa|LoRa.kicad_sch||LoRa|CanSat_Devboard-Project Architecture-LoRa
+OBC|OBC.kicad_sch||OBC|CanSat_Devboard-Project Architecture-OBC
+Power|Power.kicad_sch||Power|CanSat_Devboard-Project Architecture-Power
+SD card|SD card.kicad_sch||SD card|CanSat_Devboard-Project Architecture-SD card
+USB|USB.kicad_sch||USB|CanSat_Devboard-Project Architecture-USB
+Revision History|Revision History.kicad_sch||Revision History|CanSat_Devboard-Revision History
