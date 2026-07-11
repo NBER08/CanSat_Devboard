@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.65,
+          "height": 0.001,
+          "width": 0.001
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -74,9 +74,163 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1,
+          "via_gap": 1.524,
+          "width": 0.285
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|165523800|39437200|2bc3db81-563a-4d80-b11b-d0fd9e6b431e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|165523800|39147200|246ea625-9c27-416a-9869-1c8cdcc6f864|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|165523800|39147200|2bc3db81-563a-4d80-b11b-d0fd9e6b431e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|165523800|39147200|b146e65f-531f-425a-a2d9-4f462715bb85|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|165523800|39147200|b8f20336-02c0-4428-982a-2a1e588a52d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|165523800|39147200|ce51630d-10d7-45a3-b05c-a126b6172f00|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|141574000|35007000|bcdde46a-bfff-4bf9-b9ba-772d0d63cde7|bb4b7921-cab3-4e57-876e-41d83061ca74",
+          ""
+        ],
+        [
+          "silk_edge_clearance|154574000|35007000|bcdde46a-bfff-4bf9-b9ba-772d0d63cde7|454e28da-de70-4957-a344-a38d59858544",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|35903200|bb4b7921-cab3-4e57-876e-41d83061ca74|9f183dcd-4158-4ad3-817f-d92db1f3176e",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|37173200|bb4b7921-cab3-4e57-876e-41d83061ca74|86c7b260-a366-4d5e-b140-cfc823a82785",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|38443200|bb4b7921-cab3-4e57-876e-41d83061ca74|07e32187-4825-47ea-86f7-d9a08020b0a2",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|39713200|bb4b7921-cab3-4e57-876e-41d83061ca74|b3622da9-136d-4c0f-8c14-e3b89270833d",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|40983200|bb4b7921-cab3-4e57-876e-41d83061ca74|18873f28-5597-4e9b-a002-845d8fc279ce",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|42253200|bb4b7921-cab3-4e57-876e-41d83061ca74|fb3057de-0322-463c-a265-489fecc351c9",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|43523200|bb4b7921-cab3-4e57-876e-41d83061ca74|a0d2fd25-a388-4397-a5d9-964e0a504bd2",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|44793200|bb4b7921-cab3-4e57-876e-41d83061ca74|f905d2a3-257e-42d9-9c29-d67d731b2f27",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|46063200|bb4b7921-cab3-4e57-876e-41d83061ca74|0070a92d-3474-4d6c-8aeb-c502fd79b0bc",
+          ""
+        ],
+        [
+          "silk_over_copper|141574000|47333200|bb4b7921-cab3-4e57-876e-41d83061ca74|f97398cd-c92f-40f2-b6d4-6e2f821b50ee",
+          ""
+        ],
+        [
+          "silk_over_copper|143134000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|8978bb67-bd34-4b21-b393-ed3445e4b70c",
+          ""
+        ],
+        [
+          "silk_over_copper|144404000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|12809aa0-a059-4e32-83c7-aaa64c516c2b",
+          ""
+        ],
+        [
+          "silk_over_copper|145674000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|0b4783ef-aa31-4209-9159-e110ee4b268a",
+          ""
+        ],
+        [
+          "silk_over_copper|146944000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|a49336f1-de5e-4eb0-9a9d-38bbbed95e65",
+          ""
+        ],
+        [
+          "silk_over_copper|148214000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|df51a3fe-25a6-4058-ba9d-cfd4addfc657",
+          ""
+        ],
+        [
+          "silk_over_copper|149484000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|a57205e4-8f96-413a-937b-05fc2bd16a03",
+          ""
+        ],
+        [
+          "silk_over_copper|150754000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|ac3aecbb-b2a3-4af6-873f-d6687f8d75b3",
+          ""
+        ],
+        [
+          "silk_over_copper|152024000|50433200|291e115f-1580-4b73-a8b7-3dd4d010fb33|c67629a7-3021-49b1-af96-83aabb5719a2",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|36903200|454e28da-de70-4957-a344-a38d59858544|d11d6dc2-6d4b-4a90-9457-0aa96dc93b04",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|38173200|454e28da-de70-4957-a344-a38d59858544|8705817e-8868-475e-bbdc-1ccb70816cf7",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|39443200|454e28da-de70-4957-a344-a38d59858544|c1b87384-582e-4ec7-a8e3-819fe9e07337",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|40713200|454e28da-de70-4957-a344-a38d59858544|1d3e5b6e-dfed-4224-a636-fa1c3a2fc3d0",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|41983200|454e28da-de70-4957-a344-a38d59858544|7b90ea6a-74b7-48ed-9b0f-c7ad2d73ee35",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|43253200|454e28da-de70-4957-a344-a38d59858544|3498df97-22dd-4c31-88ce-66684c33babb",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|44523200|454e28da-de70-4957-a344-a38d59858544|2b5a2739-022d-46c6-87b4-07aad751891a",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|45793200|454e28da-de70-4957-a344-a38d59858544|f2784682-2bc1-4ba0-ad73-bebf025acdd9",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|47063200|454e28da-de70-4957-a344-a38d59858544|08222c30-4657-491f-9e45-a881812f27dd",
+          ""
+        ],
+        [
+          "silk_over_copper|154574000|48333200|454e28da-de70-4957-a344-a38d59858544|04cf34fd-126c-4024-aac0-22199f8815ce",
+          ""
+        ],
+        [
+          "track_dangling|129100200|37877200|ec0548da-ab76-4d16-9aec-0c3710e83fc6|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -147,22 +301,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.254,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.1,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.2,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.55,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -217,6 +371,8 @@
         0.15,
         0.2,
         0.25,
+        0.254,
+        0.285,
         0.3,
         0.35,
         0.4,
@@ -252,14 +408,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.55,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         },
         {
           "diameter": 0.7,
@@ -1075,7 +1223,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "L1-6,FB1-2,SW1-6,NT1-4,IC1-2,JP1,TP1-6,R1-20,#FLG1-4,J1-8,#PWR1-92,Y1-2,BT1-2,C1-26,U1-6,D1-6",
+    "used_designators": "TP1-10,R1-20,#FLG1-8,BT1-2,JP1,SW1-6,NT1-4,IC1-2,#PWR1-92,Y1-2,FB1-2,L1-6,C1-26,U1-6,D1-6,J1-8",
     "variants": []
   },
   "sheets": [
@@ -1104,10 +1252,6 @@
       "SD card"
     ],
     [
-      "018262e7-802c-4bdf-a206-c30cacd206c9",
-      "Misc"
-    ],
-    [
       "dd3743eb-d6f5-4249-8948-a675f2376adf",
       "Power"
     ],
@@ -1121,12 +1265,12 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
     "BOARD_NAME": "CanSat Devboard",
     "COMPANY": "Karpat Space Program",
     "DESIGNER": "Bertalan Nagy",
-    "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "d468186",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t64.059 \u00d7 43.561 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t0.650 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.250 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.100 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "GIT_HASH_PCB": "af37c8c",
     "GIT_HASH_SCH": "4dd37a5",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "Cansat Devboard",
@@ -1135,8 +1279,8 @@
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "10-Jul-2026",
-    "RELEASE_DATE_NUM": "2026-07-10",
+    "RELEASE_DATE": "11-Jul-2026",
+    "RELEASE_DATE_NUM": "2026-07-11",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
@@ -1144,7 +1288,7 @@
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "Revision History",
+    "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
     "SHEET_NAME_12": "......................................",
     "SHEET_NAME_13": "......................................",
@@ -1180,10 +1324,10 @@
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "LoRa",
     "SHEET_NAME_6": "SD card",
-    "SHEET_NAME_7": "Misc",
-    "SHEET_NAME_8": "Power",
-    "SHEET_NAME_9": "USB",
-    "VARIANT": "DRAFT",
+    "SHEET_NAME_7": "Power",
+    "SHEET_NAME_8": "USB",
+    "SHEET_NAME_9": "Revision History",
+    "VARIANT": "PRELIMINARY",
     "VERSION": "V1"
   },
   "tuning_profiles": {
