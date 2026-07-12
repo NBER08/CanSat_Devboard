@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">f0175fe</textvar>
+    <textvar name="GIT_HASH_PCB">79217a1</textvar>
     <textvar name="GIT_HASH_SCH">4dd37a5</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Cansat Devboard</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">11-Jul-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-07-11</textvar>
+    <textvar name="RELEASE_DATE">12-Jul-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-07-12</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -2359,7 +2359,7 @@
     <net code="27" name="CS" class="Default">
       <node ref="J5" pin="2" pinfunction="CD/DAT3_2" pintype="bidirectional"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="33" pinfunction="P0.13_33" pintype="bidirectional"/>
+      <node ref="U1" pin="43" pinfunction="P0.10/NFC2_43" pintype="bidirectional"/>
     </net>
     <net code="28" name="GND" class="GND">
       <node ref="C1" pin="1" pintype="passive"/>
@@ -2432,12 +2432,12 @@
     <net code="36" name="MISO" class="Default">
       <node ref="J5" pin="7" pinfunction="DAT0_7" pintype="bidirectional"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="U1" pin="43" pinfunction="P0.10/NFC2_43" pintype="bidirectional"/>
+      <node ref="U1" pin="33" pinfunction="P0.13_33" pintype="bidirectional"/>
     </net>
     <net code="37" name="MOSI" class="Default">
       <node ref="J5" pin="3" pinfunction="CMD_3" pintype="bidirectional"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U1" pin="35" pinfunction="P0.24_35" pintype="bidirectional"/>
+      <node ref="U1" pin="41" pinfunction="P0.09/NFC1_41" pintype="bidirectional"/>
     </net>
     <net code="38" name="NTC" class="Default">
       <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
@@ -2511,7 +2511,7 @@
     </net>
     <net code="54" name="SCK" class="Default">
       <node ref="J5" pin="5" pinfunction="CLK_5" pintype="bidirectional"/>
-      <node ref="U1" pin="41" pinfunction="P0.09/NFC1_41" pintype="bidirectional"/>
+      <node ref="U1" pin="35" pinfunction="P0.24_35" pintype="bidirectional"/>
     </net>
     <net code="55" name="SCL" class="Default">
       <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
