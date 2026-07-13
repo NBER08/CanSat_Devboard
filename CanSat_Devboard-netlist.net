@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-q8duav80/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-lw0l78k1/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -15,7 +15,7 @@
 		(textvar
 			(name "FABRICATION_NOTES") "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				64.059 × 43.561 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.250 mm\n	MIN. HOLE (NPTH)		0.650 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.250 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.100 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
 		(textvar
-			(name "GIT_HASH_PCB") "79217a1")
+			(name "GIT_HASH_PCB") "5705850")
 		(textvar
 			(name "GIT_HASH_SCH") "4dd37a5")
 		(textvar
@@ -37,9 +37,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "12-Jul-2026")
+			(name "RELEASE_DATE") "13-Jul-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-07-12")
+			(name "RELEASE_DATE_NUM") "2026-07-13")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -5425,12 +5425,6 @@
 				(pinfunction "Pin_14_14")
 				(pintype "passive")
 			)
-			(node
-				(ref "U1")
-				(pin "16")
-				(pinfunction "P0.08_16")
-				(pintype "bidirectional")
-			)
 		)
 		(net
 			(code "14")
@@ -5912,6 +5906,23 @@
 		)
 		(net
 			(code "30")
+			(name "LoRa_DIO1")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "12")
+				(pinfunction "DIO1_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "P0.26_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
 			(name "LoRa_MISO")
 			(class "Default")
 			(node
@@ -5928,7 +5939,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "32")
 			(name "LoRa_MOSI")
 			(class "Default")
 			(node
@@ -5945,7 +5956,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "33")
 			(name "LoRa_NSS")
 			(class "Default")
 			(node
@@ -5962,7 +5973,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "34")
 			(name "LoRa_RST")
 			(class "Default")
 			(node
@@ -5979,7 +5990,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "35")
 			(name "LoRa_SCK")
 			(class "Default")
 			(node
@@ -5996,7 +6007,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "36")
 			(name "LoRa_SW")
 			(class "Default")
 			(node
@@ -6013,7 +6024,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "37")
 			(name "MISO")
 			(class "Default")
 			(node
@@ -6035,7 +6046,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "38")
 			(name "MOSI")
 			(class "Default")
 			(node
@@ -6057,7 +6068,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "39")
 			(name "NTC")
 			(class "Default")
 			(node
@@ -6074,7 +6085,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "40")
 			(name "Net-(D4-A)")
 			(class "Default")
 			(node
@@ -6090,7 +6101,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "41")
 			(name "Net-(D4-K)")
 			(class "Default")
 			(node
@@ -6107,7 +6118,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "42")
 			(name "Net-(D5-A)")
 			(class "Default")
 			(node
@@ -6123,7 +6134,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "43")
 			(name "Net-(D5-K)")
 			(class "Default")
 			(node
@@ -6140,7 +6151,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "44")
 			(name "Net-(D6-A)")
 			(class "Default")
 			(node
@@ -6156,7 +6167,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "45")
 			(name "Net-(D6-K)")
 			(class "Default")
 			(node
@@ -6173,7 +6184,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "46")
 			(name "Net-(FB1-Pad1)")
 			(class "Default")
 			(node
@@ -6207,7 +6218,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "47")
 			(name "Net-(U1A-DCCH)")
 			(class "Default")
 			(node
@@ -6223,7 +6234,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "48")
 			(name "Net-(U1B-P0.00{slash}XL1)")
 			(class "Default")
 			(node
@@ -6245,7 +6256,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "49")
 			(name "Net-(U1B-P0.01{slash}XL2)")
 			(class "Default")
 			(node
@@ -6267,7 +6278,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "50")
 			(name "Net-(U4A-SHPHLD)")
 			(class "Default")
 			(node
@@ -6284,7 +6295,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "51")
 			(name "Net-(U4A-VSET1)")
 			(class "Default")
 			(node
@@ -6300,7 +6311,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "52")
 			(name "Net-(U4A-VSET2)")
 			(class "Default")
 			(node
@@ -6316,7 +6327,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "53")
 			(name "RMF")
 			(class "Default")
 			(node
@@ -6327,13 +6338,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "14")
-				(pinfunction "P0.06_14")
+				(pin "16")
+				(pinfunction "P0.08_16")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "53")
+			(code "54")
 			(name "RST")
 			(class "Default")
 			(node
@@ -6356,7 +6367,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "55")
 			(name "SCK")
 			(class "Default")
 			(node
@@ -6373,7 +6384,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "56")
 			(name "SCL")
 			(class "Default")
 			(node
@@ -6401,7 +6412,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "57")
 			(name "SDA")
 			(class "Default")
 			(node
@@ -6429,7 +6440,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "58")
 			(name "SW0")
 			(class "Default")
 			(node
@@ -6440,13 +6451,13 @@
 			)
 			(node
 				(ref "U1")
-				(pin "12")
-				(pinfunction "P0.26_12")
+				(pin "14")
+				(pinfunction "P0.06_14")
 				(pintype "bidirectional")
 			)
 		)
 		(net
-			(code "58")
+			(code "59")
 			(name "SW1")
 			(class "Default")
 			(node
@@ -6462,7 +6473,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "60")
 			(name "SW2")
 			(class "Default")
 			(node
@@ -6478,7 +6489,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "61")
 			(name "SWDCLK")
 			(class "Default")
 			(node
@@ -6495,7 +6506,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "62")
 			(name "SWDIO")
 			(class "Default")
 			(node
@@ -6512,7 +6523,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "63")
 			(name "VBAT")
 			(class "Default")
 			(node
@@ -6534,7 +6545,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "64")
 			(name "VBUS")
 			(class "Default")
 			(node
@@ -6561,7 +6572,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "65")
 			(name "VBUSOUT")
 			(class "Default")
 			(node
@@ -6583,7 +6594,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "66")
 			(name "VLDO")
 			(class "Default")
 			(node
@@ -6600,7 +6611,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "67")
 			(name "VMCU")
 			(class "Default")
 			(node
@@ -6665,7 +6676,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "68")
 			(name "VOUT2")
 			(class "Default")
 			(node
@@ -6692,7 +6703,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "69")
 			(name "VSYS")
 			(class "Default")
 			(node
@@ -6751,24 +6762,13 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "70")
 			(name "unconnected-(IC1-ANT-Pad9)")
 			(class "Default")
 			(node
 				(ref "IC1")
 				(pin "9")
 				(pinfunction "ANT_9")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "70")
-			(name "unconnected-(IC1-DIO1-Pad12)")
-			(class "Default")
-			(node
-				(ref "IC1")
-				(pin "12")
-				(pinfunction "DIO1_12")
 				(pintype "passive+no_connect")
 			)
 		)
