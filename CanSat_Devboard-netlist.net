@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-ct3novmq/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-lw0l78k1/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
