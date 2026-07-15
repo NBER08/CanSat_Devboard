@@ -1,5 +1,5 @@
 ** Drc report for CanSat_Devboard.kicad_pcb **
-** Created on 2026-07-13T11:42:48 **
+** Created on 2026-07-15T14:18:49 **
 
 ** Found 3 DRC violations **
 [lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal' does not match copy in library 'Connector_USB'
