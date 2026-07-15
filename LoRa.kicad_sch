@@ -657,10 +657,6 @@
 		(at 163.83 86.36)
 		(uuid "a08b96e8-cc7b-4132-98b2-60d445a15525")
 	)
-	(no_connect
-		(at 163.83 78.74)
-		(uuid "d0acdf24-ed3a-4230-b6e7-ea78766a80a6")
-	)
 	(bus_entry
 		(at 226.06 78.74)
 		(size 2.54 2.54)
@@ -696,6 +692,15 @@
 			(type default)
 		)
 		(uuid "6b7a079d-3053-47eb-b9d8-919637379d32")
+	)
+	(bus_entry
+		(at 226.06 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f1f05f-2304-4d1a-bebd-9157228839a3")
 	)
 	(bus_entry
 		(at 226.06 73.66)
@@ -743,6 +748,16 @@
 			(type default)
 		)
 		(uuid "29145580-8b30-40b2-abb3-fef470a136f5")
+	)
+	(wire
+		(pts
+			(xy 222.25 81.28) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3f4ca0-19db-420c-8b26-ee8a76924afe")
 	)
 	(wire
 		(pts
@@ -1044,6 +1059,30 @@
 			)
 		)
 	)
+	(global_label "LoRa_DIO1"
+		(shape input)
+		(at 163.83 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dab3b19-3a6f-43db-854e-dd33c88fc63a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.7937 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LoRa_MOSI"
 		(shape input)
 		(at 130.81 83.82 180)
@@ -1113,6 +1152,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LoRa_DIO1"
+		(shape input)
+		(at 222.25 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e306a01-49d8-4cb4-9a2d-3e9b863ec181")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.2863 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
