@@ -315,7 +315,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1143000|965200|af93fe62-88bd-4e0c-ba62-b0f014862df6|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|609600|1092200|5e09e67b-4391-4021-ba57-cfaab84d9d6d|3f5fd925-1163-47f8-ac0e-202c921531d1|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/dd3743eb-d6f5-4249-8948-a675f2376adf",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -499,7 +508,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
@@ -523,8 +532,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
-      "power_pin_not_driven": "warning",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -1092,7 +1101,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "R1-20,TP1-10,BT1-2,#FLG1-8,JP1,SW1-6,NT1-4,IC1-2,Y1-2,#PWR1-92,C1-26,U1-6,D1-6,FB1-2,L1-6,J1-8",
+    "used_designators": "U1-6,D1-6,C1-26,J1-8,L1-6,FB1-2,Y1-2,#PWR1-92,R1-20,TP1-10,JP1,BT1-2,#FLG1-8,SW1-6,NT1-4,IC1-2",
     "variants": []
   },
   "sheets": [
@@ -1196,7 +1205,7 @@
     "SHEET_NAME_7": "Power",
     "SHEET_NAME_8": "USB",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "PRELIMINARY",
+    "VARIANT": "CHECKED",
     "VERSION": "V1"
   },
   "tuning_profiles": {

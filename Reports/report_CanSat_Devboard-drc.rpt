@@ -1,0 +1,27 @@
+** Drc report for CanSat_Devboard.kicad_pcb **
+** Created on 2026-07-13T11:42:48 **
+
+** Found 3 DRC violations **
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal' does not match copy in library 'Connector_USB'
+    ; warning (excluded)
+    @(162.7248 mm, 81.5314 mm): Footprint J4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning (excluded)
+    @(116.9794 mm, 77.3912 mm): Rectangle on Edge.Cuts
+    @(138.775 mm, 74.3174 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning (excluded)
+    @(116.9794 mm, 77.3912 mm): Rectangle on Edge.Cuts
+    @(151.775 mm, 92.8174 mm): Segment of U1 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 2 Footprint errors **
+[net_conflict]: Pad net (0.08) doesn't match net given by schematic (unconnected-(J8-Pin_14-Pad14))
+    ; warning
+    @(121.3228 mm, 95.095 mm): PTH pad 14 [0.08] of J8
+[net_conflict]: No pad found for pin S1 (GND) in schematic
+    ; warning (excluded)
+    @(162.7248 mm, 81.5314 mm): Footprint J4
+
+** End of Report **
