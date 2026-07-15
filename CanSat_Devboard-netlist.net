@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-ma2lwg1p/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-8mwxh1v6/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -37,9 +37,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "13-Jul-2026")
+			(name "RELEASE_DATE") "15-Jul-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-07-13")
+			(name "RELEASE_DATE_NUM") "2026-07-15")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
