@@ -3933,7 +3933,7 @@
 	)
 	(global_label "CC2"
 		(shape input)
-		(at 185.42 63.5 0)
+		(at 185.42 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3943,7 +3943,7 @@
 		)
 		(uuid "27ee0aa2-5236-4b9a-9439-ef101b16d765")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.1547 63.5 0)
+			(at 192.1547 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +4005,7 @@
 	)
 	(global_label "CC1"
 		(shape input)
-		(at 185.42 66.04 0)
+		(at 185.42 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4015,7 +4015,7 @@
 		)
 		(uuid "54cf40f7-8aa1-4a56-bc18-75031f3a6628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.1547 66.04 0)
+			(at 192.1547 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

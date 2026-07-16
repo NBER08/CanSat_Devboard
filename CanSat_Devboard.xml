@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">5705850</textvar>
+    <textvar name="GIT_HASH_PCB">e9cdcd6</textvar>
     <textvar name="GIT_HASH_SCH">4dd37a5</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Cansat Devboard</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">15-Jul-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-07-15</textvar>
+    <textvar name="RELEASE_DATE">16-Jul-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-07-16</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -2346,11 +2346,11 @@
     </net>
     <net code="24" name="CC1" class="Default">
       <node ref="J4" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
-      <node ref="U4" pin="24" pinfunction="CC2_24" pintype="unspecified"/>
+      <node ref="U4" pin="23" pinfunction="CC1_23" pintype="unspecified"/>
     </net>
     <net code="25" name="CC2" class="Default">
       <node ref="J4" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
-      <node ref="U4" pin="23" pinfunction="CC1_23" pintype="unspecified"/>
+      <node ref="U4" pin="24" pinfunction="CC2_24" pintype="unspecified"/>
     </net>
     <net code="26" name="CS" class="Default">
       <node ref="J5" pin="2" pinfunction="CD/DAT3_2" pintype="bidirectional"/>
