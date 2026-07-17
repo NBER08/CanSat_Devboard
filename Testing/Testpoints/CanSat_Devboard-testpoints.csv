@@ -1,5 +1,5 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP7,VMCU,Default,87.9552,1.2530,top,SMT,VMCU,TestPoint_Pad_D1.0mm
-TP8,VSYS,Default,83.2308,-12.1582,top,SMT,VSYS,TestPoint_Pad_D1.0mm
-TP9,+3.3V,Default,66.3144,10.6002,top,SMT,3V3,TestPoint_Pad_D1.0mm
-TP10,VLDO,Default,79.8272,-10.1182,top,SMT,VLDO,TestPoint_Pad_D1.0mm
+TP7,VMCU,Default,81.0768,-0.0254,top,SMT,VMCU,TestPoint_Pad_D1.0mm
+TP8,VSYS,Default,77.5462,-15.7480,top,SMT,VSYS,TestPoint_Pad_D1.0mm
+TP9,+3.3V,Default,64.0030,7.5268,top,SMT,3V3,TestPoint_Pad_D1.0mm
+TP10,VLDO,Default,77.5158,-13.1916,top,SMT,VLDO,TestPoint_Pad_D1.0mm

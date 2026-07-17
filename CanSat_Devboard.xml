@@ -42,7 +42,7 @@
 	BE LPI, COLOR BLACK.
 
 6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
-	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
+	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
 
 7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
 	SOLDERMASK OPENED IN GERBER.
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">e9cdcd6</textvar>
+    <textvar name="GIT_HASH_PCB">52e4e15</textvar>
     <textvar name="GIT_HASH_SCH">4dd37a5</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Cansat Devboard</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">16-Jul-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-07-16</textvar>
+    <textvar name="RELEASE_DATE">17-Jul-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-07-17</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -567,7 +567,7 @@
       <property name="Sheetfile" value="OBC.kicad_sch"/>
       <property name="ki_fp_filters" value="Project_Components:E73-2G4M08S1C"/>
       <sheetpath names="/Project Architecture/OBC/" tstamps="/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/"/>
-      <tstamps>5fc06a83-9a07-4a62-9e39-553022a90e85 73a9b503-a8d6-45c4-a9e0-cad4c52e6793 10c7fc39-103e-4814-a4cc-6d06c898c67a</tstamps>
+      <tstamps>73a9b503-a8d6-45c4-a9e0-cad4c52e6793 5fc06a83-9a07-4a62-9e39-553022a90e85 10c7fc39-103e-4814-a4cc-6d06c898c67a</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1391,7 +1391,7 @@
       </units>
     </comp>
     <comp ref="R16">
-      <value>150k</value>
+      <value>500k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <description>Resistor</description>
       <fields>
@@ -2265,17 +2265,19 @@
   </libraries>
   <nets>
     <net code="3" name="+3.3V" class="Default">
+      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="IC1" pin="8" pinfunction="VCC_8" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="VDD_4" pintype="bidirectional"/>
       <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="L5" pin="2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="TP9" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U4" pin="31" pinfunction="LSOUT2/VOUTLDO2_31" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VOUT1_1" pintype="power_in"/>
     </net>
     <net code="4" name="+3V3" class="Power 3V3">
       <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
@@ -2562,29 +2564,24 @@
       <node ref="U4" pin="22" pinfunction="VBUSOUT_22" pintype="unspecified"/>
     </net>
     <net code="65" name="VLDO" class="Default">
+      <node ref="J8" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
       <node ref="TP10" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U4" pin="29" pinfunction="LSOUT1/VOUTLDO1_29" pintype="power_in"/>
     </net>
     <net code="66" name="VMCU" class="Default">
+      <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
-      <node ref="L5" pin="2" pintype="passive"/>
+      <node ref="L4" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="VDD_19" pintype="bidirectional"/>
       <node ref="U1" pin="23" pinfunction="VDDH_23" pintype="bidirectional"/>
-      <node ref="U4" pin="1" pinfunction="VOUT1_1" pintype="power_in"/>
       <node ref="U4" pin="12" pinfunction="VDDIO_12" pintype="power_in"/>
-    </net>
-    <net code="67" name="VOUT2" class="Default">
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="L4" pin="1" pintype="passive"/>
-      <node ref="U4" pin="30" pinfunction="LSIN2/VINLDO2_30" pintype="power_in"/>
       <node ref="U4" pin="32" pinfunction="VOUT2_32" pintype="power_in"/>
     </net>
-    <net code="68" name="VSYS" class="Default">
+    <net code="67" name="VSYS" class="Default">
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
@@ -2596,49 +2593,52 @@
       <node ref="U4" pin="28" pinfunction="LSIN1/VINLDO1_28" pintype="power_in"/>
       <node ref="U4" pin="4" pinfunction="PVDD_4" pintype="power_in"/>
     </net>
-    <net code="69" name="unconnected-(IC1-ANT-Pad9)" class="Default">
+    <net code="68" name="unconnected-(IC1-ANT-Pad9)" class="Default">
       <node ref="IC1" pin="9" pinfunction="ANT_9" pintype="passive+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(J4-SBU1-PadA8)" class="Default">
+    <net code="69" name="unconnected-(J4-SBU1-PadA8)" class="Default">
       <node ref="J4" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(J4-SBU2-PadB8)" class="Default">
+    <net code="70" name="unconnected-(J4-SBU2-PadB8)" class="Default">
       <node ref="J4" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(J5-CDSW1-Pad9)" class="Default">
+    <net code="71" name="unconnected-(J5-CDSW1-Pad9)" class="Default">
       <node ref="J5" pin="9" pinfunction="CDSW1_9" pintype="bidirectional+no_connect"/>
       <node ref="J5" pin="9-1" pinfunction="CDSW1_9-1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(J5-CDSW2-Pad10)" class="Default">
+    <net code="72" name="unconnected-(J5-CDSW2-Pad10)" class="Default">
       <node ref="J5" pin="10" pinfunction="CDSW2_10" pintype="bidirectional+no_connect"/>
       <node ref="J5" pin="10-1" pinfunction="CDSW2_10-1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(J5-DAT1-Pad8)" class="Default">
+    <net code="73" name="unconnected-(J5-DAT1-Pad8)" class="Default">
       <node ref="J5" pin="8" pinfunction="DAT1_8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(J5-DAT2-Pad1)" class="Default">
+    <net code="74" name="unconnected-(J5-DAT2-Pad1)" class="Default">
       <node ref="J5" pin="1" pinfunction="DAT2_1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(J6-Pin_6-Pad6)" class="Default">
+    <net code="75" name="unconnected-(J6-Pin_6-Pad6)" class="Default">
       <node ref="J6" pin="6" pinfunction="Pin_6_6" pintype="passive+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(J8-Pin_14-Pad14)" class="Default">
-      <node ref="J8" pin="14" pinfunction="Pin_14_14" pintype="passive+no_connect"/>
-    </net>
-    <net code="78" name="unconnected-(U3-IO3-Pad4)" class="Default">
+    <net code="76" name="unconnected-(U3-IO3-Pad4)" class="Default">
       <node ref="U3" pin="4" pinfunction="IO3_4" pintype="passive+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U3-IO4-Pad6)" class="Default">
+    <net code="77" name="unconnected-(U3-IO4-Pad6)" class="Default">
       <node ref="U3" pin="6" pinfunction="IO4_6" pintype="passive+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U4A-GPIO2-Pad9)" class="Default">
+    <net code="78" name="unconnected-(U4A-GPIO2-Pad9)" class="Default">
       <node ref="U4" pin="9" pinfunction="GPIO2_9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U4A-GPIO3-Pad10)" class="Default">
+    <net code="79" name="unconnected-(U4A-GPIO3-Pad10)" class="Default">
       <node ref="U4" pin="10" pinfunction="GPIO3_10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U4A-GPIO4-Pad11)" class="Default">
+    <net code="80" name="unconnected-(U4A-GPIO4-Pad11)" class="Default">
       <node ref="U4" pin="11" pinfunction="GPIO4_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U4A-LSIN2/VINLDO2-Pad30)" class="Default">
+      <node ref="U4" pin="30" pinfunction="LSIN2/VINLDO2_30" pintype="power_in+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U4A-LSOUT2/VOUTLDO2-Pad31)" class="Default">
+      <node ref="U4" pin="31" pinfunction="LSOUT2/VOUTLDO2_31" pintype="power_in+no_connect"/>
     </net>
   </nets>
 </export>

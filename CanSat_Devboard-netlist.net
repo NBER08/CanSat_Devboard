@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-g9mtqekw/CanSat_Devboard.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-ov5b8gt5/CanSat_Devboard.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu25.10.1")
 		(textvar
@@ -13,9 +13,9 @@
 		(textvar
 			(name "DESIGNER") "Bertalan Nagy")
 		(textvar
-			(name "FABRICATION_NOTES") "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				64.059 × 43.561 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.250 mm\n	MIN. HOLE (NPTH)		0.650 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.250 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.100 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
+			(name "FABRICATION_NOTES") "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY KARPAT SPACE PROGRAM.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				64.059 × 43.561 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		0.200 mm\n	MIN. HOLE (PTH)			0.250 mm\n	MIN. HOLE (NPTH)		0.650 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.250 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.100 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
 		(textvar
-			(name "GIT_HASH_PCB") "e9cdcd6")
+			(name "GIT_HASH_PCB") "52e4e15")
 		(textvar
 			(name "GIT_HASH_SCH") "4dd37a5")
 		(textvar
@@ -37,9 +37,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "16-Jul-2026")
+			(name "RELEASE_DATE") "17-Jul-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-07-16")
+			(name "RELEASE_DATE_NUM") "2026-07-17")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -1189,7 +1189,7 @@
 				(names "/Project Architecture/OBC/")
 				(tstamps "/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350/2028456c-6ef4-4d71-987d-d023cb9d3da5/")
 			)
-			(tstamps "5fc06a83-9a07-4a62-9e39-553022a90e85" "73a9b503-a8d6-45c4-a9e0-cad4c52e6793"
+			(tstamps "73a9b503-a8d6-45c4-a9e0-cad4c52e6793" "5fc06a83-9a07-4a62-9e39-553022a90e85"
 				"10c7fc39-103e-4814-a4cc-6d06c898c67a"
 			)
 			(units
@@ -3042,7 +3042,7 @@
 		)
 		(comp
 			(ref "R16")
-			(value "150k")
+			(value "500k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
 			(fields
@@ -5251,6 +5251,11 @@
 			(name "+3.3V")
 			(class "Default")
 			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C3")
 				(pin "2")
 				(pintype "passive")
@@ -5285,6 +5290,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "L5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "R1")
 				(pin "1")
 				(pintype "passive")
@@ -5307,8 +5317,8 @@
 			)
 			(node
 				(ref "U4")
-				(pin "31")
-				(pinfunction "LSOUT2/VOUTLDO2_31")
+				(pin "1")
+				(pinfunction "VOUT1_1")
 				(pintype "power_in")
 			)
 		)
@@ -6587,6 +6597,12 @@
 			(name "VLDO")
 			(class "Default")
 			(node
+				(ref "J8")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
 				(ref "TP10")
 				(pin "1")
 				(pinfunction "1_1")
@@ -6604,13 +6620,13 @@
 			(name "VMCU")
 			(class "Default")
 			(node
-				(ref "C15")
+				(ref "C14")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "C16")
-				(pin "2")
+				(ref "C15")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -6619,8 +6635,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "L5")
-				(pin "2")
+				(ref "L4")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -6653,35 +6669,8 @@
 			)
 			(node
 				(ref "U4")
-				(pin "1")
-				(pinfunction "VOUT1_1")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U4")
 				(pin "12")
 				(pinfunction "VDDIO_12")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "67")
-			(name "VOUT2")
-			(class "Default")
-			(node
-				(ref "C14")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "L4")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U4")
-				(pin "30")
-				(pinfunction "LSIN2/VINLDO2_30")
 				(pintype "power_in")
 			)
 			(node
@@ -6692,7 +6681,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "67")
 			(name "VSYS")
 			(class "Default")
 			(node
@@ -6751,7 +6740,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "68")
 			(name "unconnected-(IC1-ANT-Pad9)")
 			(class "Default")
 			(node
@@ -6762,7 +6751,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "69")
 			(name "unconnected-(J4-SBU1-PadA8)")
 			(class "Default")
 			(node
@@ -6773,7 +6762,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "70")
 			(name "unconnected-(J4-SBU2-PadB8)")
 			(class "Default")
 			(node
@@ -6784,7 +6773,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "71")
 			(name "unconnected-(J5-CDSW1-Pad9)")
 			(class "Default")
 			(node
@@ -6801,7 +6790,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "72")
 			(name "unconnected-(J5-CDSW2-Pad10)")
 			(class "Default")
 			(node
@@ -6818,7 +6807,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "73")
 			(name "unconnected-(J5-DAT1-Pad8)")
 			(class "Default")
 			(node
@@ -6829,7 +6818,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "74")
 			(name "unconnected-(J5-DAT2-Pad1)")
 			(class "Default")
 			(node
@@ -6840,7 +6829,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "75")
 			(name "unconnected-(J6-Pin_6-Pad6)")
 			(class "Default")
 			(node
@@ -6851,18 +6840,7 @@
 			)
 		)
 		(net
-			(code "77")
-			(name "unconnected-(J8-Pin_14-Pad14)")
-			(class "Default")
-			(node
-				(ref "J8")
-				(pin "14")
-				(pinfunction "Pin_14_14")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "78")
+			(code "76")
 			(name "unconnected-(U3-IO3-Pad4)")
 			(class "Default")
 			(node
@@ -6873,7 +6851,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "77")
 			(name "unconnected-(U3-IO4-Pad6)")
 			(class "Default")
 			(node
@@ -6884,7 +6862,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "78")
 			(name "unconnected-(U4A-GPIO2-Pad9)")
 			(class "Default")
 			(node
@@ -6895,7 +6873,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "79")
 			(name "unconnected-(U4A-GPIO3-Pad10)")
 			(class "Default")
 			(node
@@ -6906,7 +6884,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "80")
 			(name "unconnected-(U4A-GPIO4-Pad11)")
 			(class "Default")
 			(node
@@ -6914,6 +6892,28 @@
 				(pin "11")
 				(pinfunction "GPIO4_11")
 				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(U4A-LSIN2{slash}VINLDO2-Pad30)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "30")
+				(pinfunction "LSIN2/VINLDO2_30")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(U4A-LSOUT2{slash}VOUTLDO2-Pad31)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "31")
+				(pinfunction "LSOUT2/VOUTLDO2_31")
+				(pintype "power_in+no_connect")
 			)
 		)
 	)
