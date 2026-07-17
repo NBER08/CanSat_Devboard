@@ -417,7 +417,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
@@ -494,7 +494,7 @@
 		(instances
 			(project "CanSat_Devboard"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/5d00bd0a-3bbf-46b2-b8c5-f75441fb4350"
-					(page "8")
+					(page "7")
 				)
 			)
 		)

@@ -2788,6 +2788,16 @@
 		)
 		(uuid "6620a385-2899-462b-93be-be59e010d08f")
 	)
+	(text "47k -> 1.8V\n500k -> 2.7V"
+		(exclude_from_sim no)
+		(at 206.502 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b11a1489-81ef-4190-b2ef-d33469bdf909")
+	)
 	(text "Load switch mode\n"
 		(exclude_from_sim no)
 		(at 150.368 50.8 0)
@@ -2946,6 +2956,14 @@
 	(no_connect
 		(at 104.14 71.12)
 		(uuid "668d83d3-d412-463a-b293-8cce276c309c")
+	)
+	(no_connect
+		(at 104.14 53.34)
+		(uuid "6a6c0bb0-1d60-4709-b51e-42f76ac07942")
+	)
+	(no_connect
+		(at 185.42 50.8)
+		(uuid "9a86f366-5eca-466a-a368-04a5d10a84ca")
 	)
 	(bus_entry
 		(at 34.29 41.91)
@@ -3835,30 +3853,6 @@
 			)
 		)
 	)
-	(global_label "VOUT2"
-		(shape input)
-		(at 204.47 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07d96da6-de4d-4018-a6da-bf658d3cfbf8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.3819 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SW1"
 		(shape input)
 		(at 54.61 111.76 0)
@@ -4168,30 +4162,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "VOUT2"
-		(shape input)
-		(at 104.14 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c4da280c-7a44-4be4-ae02-4959a3a12760")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2281 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -6917,7 +6887,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 233.68 55.88 270)
+		(at 204.47 58.42 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6928,7 +6898,7 @@
 		(fields_autoplaced yes)
 		(uuid "772a6eb3-a491-4756-84f1-ceb1b6e422e2")
 		(property "Reference" "#PWR055"
-			(at 229.87 55.88 0)
+			(at 200.66 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6939,7 +6909,7 @@
 			)
 		)
 		(property "Value" "VMCU"
-			(at 238.76 55.8799 90)
+			(at 209.55 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6950,7 +6920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 55.88 0)
+			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,7 +6931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 55.88 0)
+			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +6942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 55.88 0)
+			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7095,7 +7065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "500k"
 			(at 195.58 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8535,7 +8505,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 185.42 50.8 270)
+		(at 233.68 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8546,7 +8516,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0829a92-b3dc-4114-af34-55abebdfaef4")
 		(property "Reference" "#PWR048"
-			(at 181.61 50.8 0)
+			(at 229.87 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8557,7 +8527,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 189.23 50.7999 90)
+			(at 237.49 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8568,7 +8538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 50.8 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8579,7 +8549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 50.8 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8590,7 +8560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 185.42 50.8 0)
+			(at 233.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
